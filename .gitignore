@@ -1,4 +1,5 @@
 .venv/
+.venv.broken/
 __pycache__/
 *.pyc
 .env
@@ -9,3 +10,10 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Rebuilt locally by scripts/build_index.py (not committed)
+vectorstore/
+results/ui/
+
+# Text extracted from your own PDFs by scripts/ingest_pdf.py (may be copyrighted; not committed)
+data/local_docs/
