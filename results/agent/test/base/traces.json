@@ -1,0 +1,3023 @@
+[
+ {
+  "query_id": "t01",
+  "question": "How many stages of development does Erik Erikson's theory include?",
+  "status": "answered",
+  "reason": "model_answer",
+  "answer": "Erik Erikson's theory of development includes eight stages, which span from birth to death [B-soc3e-p0133-004].",
+  "citations": [
+   "B-soc3e-p0133-004"
+  ],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.477,
+    "retries": 0,
+    "usage": {
+     "prompt": 707,
+     "output": 48,
+     "thoughts": 66,
+     "total": 821
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Erik Erikson stages of development",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": {
+     "chapter": 5
+    },
+    "filter_reason": "Erik Erikson's theory of development is covered in Chapter 5 on Socialization.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0133-004",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 133
+     },
+     {
+      "id": "B-soc3e-p0133-003",
+      "score": 0.0318,
+      "rank": 2,
+      "page": 133
+     },
+     {
+      "id": "B-soc3e-p0134-004",
+      "score": 0.0311,
+      "rank": 3,
+      "page": 134
+     },
+     {
+      "id": "B-soc3e-p0134-000",
+      "score": 0.0303,
+      "rank": 4,
+      "page": 134
+     },
+     {
+      "id": "B-soc3e-p0135-000",
+      "score": 0.0301,
+      "rank": 5,
+      "page": 135
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0133-004",
+     "B-soc3e-p0133-003",
+     "B-soc3e-p0134-004",
+     "B-soc3e-p0134-000",
+     "B-soc3e-p0135-000"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 13.01,
+    "context_chars_used": 4140
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 1.674,
+    "retries": 0,
+    "usage": {
+     "prompt": 1912,
+     "output": 96,
+     "thoughts": 88,
+     "total": 2096
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0133-004"
+    ],
+    "answer": "Erik Erikson's theory of development includes eight stages, which span from birth to death [B-soc3e-p0133-004].",
+    "evidence_quote": "His theory includes eight stages of development, beginning with birth and ending with death."
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 1,
+  "llm_calls": 2,
+  "tokens": {
+   "prompt": 2619,
+   "output": 144,
+   "thoughts": 154,
+   "total": 2917
+  },
+  "latency_s": 16.177,
+  "context_ids": [
+   "B-soc3e-p0133-004",
+   "B-soc3e-p0133-003",
+   "B-soc3e-p0134-004",
+   "B-soc3e-p0134-000",
+   "B-soc3e-p0135-000"
+  ],
+  "context_chars": 4140,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0133-004",
+    "page": 133,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.03278688524590164,
+    "rank": 1,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nPsychologist Erik Erikson (1902–1994) created a theory of personality development based, in part, on the work of Freud. However, Erikson believed the personality continued to change over time and was never truly finished. His theory includes eight stages of development, beginning with birth and ending with death. According to Erikson, people move through these stages throughout their lives. In contrast to Freud’s focus on psychosexual stages and basic human urges, Erikson’s view of self-development gave credit to more social aspects, like the way we negotiate between our own base desires and what is socially accepted (Erikson 1982)."
+   },
+   {
+    "id": "B-soc3e-p0133-003",
+    "page": 133,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.031754032258064516,
+    "rank": 2,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nLEARNING OBJECTIVES\nBy the end of this section, you should be able to:\n• Differentiate psychological and sociological theories of self-development • Explain the process of moral development\nWhen we are born, we have a genetic makeup and biological traits. However, who we are as human beings develops through social interaction. Many scholars, both in the fields of psychology and in sociology, have described the process of self-development as a precursor to understanding how that “self” becomes socialized.\nPsychological Perspectives on Self-Development\nPsychoanalyst Sigmund Freud (1856–1939) was one of the most influential modern scientists to put forth a theory about how people develop a sense of self. He divided the maturation process into stages, and posited that people’s self-development is closely linked to their early stages of development.\nAccording to Freud, failure to properly engage in or disengage from a specific stage results in emotional and psychological consequences throughout adulthood."
+   },
+   {
+    "id": "B-soc3e-p0134-004",
+    "page": 134,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.031054405392392875,
+    "rank": 3,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nHow do we go from being newborns to being humans with “selves?” Mead believed that there is a specific path of development that all people go through. During the preparatory stage, children are only capable of imitation: they have no ability to imagine how others see things. They copy the actions of people with whom they regularly interact, such as their caregivers. This is followed by the play stage, during which children begin to take on the role that one other person might have. Thus, children might try on a parent’s point of view by\nSOCIOLOGICAL RESEARCH"
+   },
+   {
+    "id": "B-soc3e-p0134-000",
+    "page": 134,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.030309988518943745,
+    "rank": 4,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nJean Piaget (1896–1980) was a psychologist who focused on the role of social interactions in child development. He recognized that the development of self evolved through a negotiation between the world as it exists in one’s mind and the world that exists as it is experienced socially (Piaget 1954). All three of these thinkers have contributed to our modern understanding of self-development.\nSociology or Psychology: What’s the Difference? You might be wondering: if sociologists and psychologists are both interested in people and their behavior, how are these two disciplines different? What do they agree on, and where do their ideas diverge? The answers are complicated, but the distinction is important to scholars in both fields."
+   },
+   {
+    "id": "B-soc3e-p0135-000",
+    "page": 135,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.030090497737556562,
+    "rank": 5,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nacting out “grownup” behavior, like playing dress-up and acting out the “mom” role, or talking on a toy telephone the way they see adults do.\nDuring the game stage, children learn to consider several roles at the same time and how those roles interact with each other. They learn to understand interactions involving different people with a variety of purposes. For example, a child at this stage is likely to be aware of the different responsibilities of people in a restaurant who together make for a smooth dining experience (someone seats you, another takes your order, someone else cooks the food, while yet another clears away dirty dishes).\nFinally, children develop, understand, and learn the idea of the generalized other, the common behavioral expectations of general society. By this stage of development, an individual is able to imagine how he or she is viewed by one or many others—and thus, from a sociological perspective, to have a “self” (Mead 1934; Mead 1964).\nKohlberg’s Theory of Moral Development"
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t02",
+  "question": "What did Emile Durkheim attribute differences in suicide rates to?",
+  "status": "answered",
+  "reason": "model_answer",
+  "answer": "Émile Durkheim attributed differences in suicide rates to social causes (such as religious differences) rather than to psychological causes [B-soc3e-p0134-002].",
+  "citations": [
+   "B-soc3e-p0134-002"
+  ],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.619,
+    "retries": 0,
+    "usage": {
+     "prompt": 706,
+     "output": 54,
+     "thoughts": 97,
+     "total": 857
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Emile Durkheim suicide rates",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": {
+     "chapter": 7
+    },
+    "filter_reason": "Durkheim and suicide rates are typically discussed in the context of deviance and social control in Chapter 7.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0191-000",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 191
+     },
+     {
+      "id": "B-soc3e-p0191-001",
+      "score": 0.032,
+      "rank": 2,
+      "page": 191
+     },
+     {
+      "id": "B-soc3e-p0192-001",
+      "score": 0.0303,
+      "rank": 3,
+      "page": 192
+     },
+     {
+      "id": "B-soc3e-p0191-004",
+      "score": 0.0299,
+      "rank": 4,
+      "page": 191
+     },
+     {
+      "id": "B-soc3e-p0201-001",
+      "score": 0.0289,
+      "rank": 5,
+      "page": 201
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0191-000",
+     "B-soc3e-p0191-001",
+     "B-soc3e-p0192-001",
+     "B-soc3e-p0191-004",
+     "B-soc3e-p0201-001"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.039,
+    "context_chars_used": 4348
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 10.399,
+    "retries": 1,
+    "usage": {
+     "prompt": 2006,
+     "output": 18,
+     "thoughts": 34,
+     "total": 2058
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "suicide Durkheim",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": null,
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0134-002",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 134
+     },
+     {
+      "id": "B-soc3e-p0191-000",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 191
+     },
+     {
+      "id": "B-soc3e-p0191-001",
+      "score": 0.0317,
+      "rank": 3,
+      "page": 191
+     },
+     {
+      "id": "B-soc3e-p0191-002",
+      "score": 0.0277,
+      "rank": 4,
+      "page": 191
+     },
+     {
+      "id": "B-soc3e-p0148-001",
+      "score": 0.0156,
+      "rank": 5,
+      "page": 148
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0134-002",
+     "B-soc3e-p0191-002",
+     "B-soc3e-p0148-001"
+    ],
+    "duplicates": [
+     "B-soc3e-p0191-000",
+     "B-soc3e-p0191-001"
+    ],
+    "budget_dropped": [],
+    "latency_s": 0.021,
+    "context_chars_used": 7795
+   },
+   {
+    "event": "model_call",
+    "n": 3,
+    "latency_s": 2.712,
+    "retries": 0,
+    "usage": {
+     "prompt": 2920,
+     "output": 111,
+     "thoughts": 331,
+     "total": 3362
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0134-002"
+    ],
+    "answer": "Émile Durkheim attributed differences in suicide rates to social causes (such as religious differences) rather than to psychological causes [B-soc3e-p0134-002].",
+    "evidence_quote": "attributed differences in suicide rates among people to social causes (religious differences) rather than to psychological causes (like their mental wellbeing)"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 2,
+  "llm_calls": 3,
+  "tokens": {
+   "prompt": 5632,
+   "output": 183,
+   "thoughts": 462,
+   "total": 6277
+  },
+  "latency_s": 50.646,
+  "context_ids": [
+   "B-soc3e-p0191-000",
+   "B-soc3e-p0191-001",
+   "B-soc3e-p0192-001",
+   "B-soc3e-p0191-004",
+   "B-soc3e-p0201-001",
+   "B-soc3e-p0134-002",
+   "B-soc3e-p0191-002",
+   "B-soc3e-p0148-001"
+  ],
+  "context_chars": 7795,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0191-000",
+    "page": 191,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.03278688524590164,
+    "rank": 1,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nÉmile Durkheim: The Essential Nature of Deviance\nÉmile Durkheim believed that deviance is a necessary part of a successful society. One way deviance is functional, he argued, is that it challenges people’s present views (1893). For instance, when Black students across the United States participated in sit-ins during the civil rights movement, they challenged society’s notions of segregation. Moreover, Durkheim noted, when deviance is punished, it reaffirms currently held social norms, which also contributes to society (1893). Seeing a student given detention for skipping class reminds other high schoolers that playing hooky isn’t allowed and that they, too, could get detention."
+   },
+   {
+    "id": "B-soc3e-p0191-001",
+    "page": 191,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.03200204813108039,
+    "rank": 2,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nDurkheim’s point regarding the impact of punishing deviance speaks to his arguments about law. Durkheim saw laws as an expression of the “collective conscience,” which are the beliefs, morals, and attitudes of a society. “A crime is a crime because we condemn it,” he said (1893). He discussed the impact of societal size and complexity as contributors to the collective conscience and the development of justice systems and punishments. For example, in large, industrialized societies that were largely bound together by the interdependence of work (the division of labor), punishments for deviance were generally less severe. In smaller, more homogeneous societies, deviance might be punished more severely.\nRobert Merton: Strain Theory"
+   },
+   {
+    "id": "B-soc3e-p0192-001",
+    "page": 192,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.030330882352941176,
+    "rank": 3,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nSocial disorganization theory points to broad social factors as the cause of deviance. A person isn’t born as someone who will commit crimes but becomes one over time, often based on factors in their social environment. Robert Sampson and Byron Groves (1989) found that poverty and family disruption in given localities had a strong positive correlation with social disorganization. They also determined that social disorganization was, in turn, associated with high rates of crime and delinquency—or deviance. Recent studies Sampson conducted with Lydia Bean (2006) revealed similar findings. High rates of poverty and single-parent homes correlated with high rates of juvenile violence. Research into social disorganization theory can greatly influence public policy. For instance, studies have found that children from disadvantaged communities who attend preschool programs that teach basic social skills are significantly less likely to engage in criminal activity. (Lally 1987)\nConflict Theory"
+   },
+   {
+    "id": "B-soc3e-p0191-004",
+    "page": 191,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.029850746268656716,
+    "rank": 4,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nDeveloped by researchers at the University of Chicago in the 1920s and 1930s, social disorganization theory asserts that crime is most likely to occur in communities with weak social ties and the absence of social control. An individual who grows up in a poor neighborhood with high rates of drug use, violence, teenage delinquency, and deprived parenting is more likely to become engaged in crime than an individual from a wealthy neighborhood with a good school system and families who are involved positively in the community."
+   },
+   {
+    "id": "B-soc3e-p0201-001",
+    "page": 201,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.028850145288501453,
+    "rank": 5,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nNeither the NCVR nor the UCR accounts for all crime in the United States, but general trends can be determined. Crime rates, particularly for violent and gun-related crimes, have been on the decline since peaking in the early 1990s (Cohn, Taylor, Lopez, Gallagher, Parker, and Maass 2013). However, the public believes crime rates are still high, or even worsening. Recent surveys (Saad 2011; Pew Research Center 2013, cited in Overburg and Hoyer 2013) have found U.S. adults believe crime is worse now than it was twenty years ago.\nInaccurate public perception of crime may be heightened by popular crime series such as Law & Order (Warr 2008) and by extensive and repeated media coverage of crime. Many researchers have found that people who closely follow media reports of crime are likely to estimate the crime rate as inaccurately high and more likely to feel fearful about the chances of experiencing crime (Chiricos, Padgett, and Gertz 2000). Recent research has also found that people who reported watching news coverage of 9/11 or the Boston Marathon Bombing for more than an hour daily became more fearful of future terrorism (Holman, Garfin, and Silver 2014)."
+   },
+   {
+    "id": "B-soc3e-p0134-002",
+    "page": 134,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.03278688524590164,
+    "rank": 1,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nÉmile Durkheim (1858–1917) was the first to make this distinction in research, when he attributed differences in suicide rates among people to social causes (religious differences) rather than to psychological causes (like their mental wellbeing) (Durkheim 1897). Today, we see this same distinction. For example, a sociologist studying how a couple gets to the point of their first kiss on a date might focus her research on cultural norms for dating, social patterns of sexual activity over time, or how this process is different for seniors than for teens. A psychologist would more likely be interested in the person’s earliest sexual awareness or the mental processing of sexual desire.\nSometimes sociologists and psychologists have collaborated to increase knowledge. In recent decades, however, their fields have become more clearly separated as sociologists increasingly focus on large societal issues and patterns, while psychologists remain honed in on the human mind. Both disciplines make valuable contributions through different approaches that provide us with different types of useful insights.\nSociological Theories of Self-Development"
+   },
+   {
+    "id": "B-soc3e-p0191-002",
+    "page": 191,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.027651515151515153,
+    "rank": 4,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nSociologist Robert Merton agreed that deviance is an inherent part of a functioning society, but he expanded on Durkheim’s ideas by developing strain theory, which notes that access to socially acceptable goals plays a part in determining whether a person conforms or deviates. From birth, we’re encouraged to achieve the “American Dream” of financial success. A person who attends business school, receives an MBA, and goes on to make a million-dollar income as CEO of a company is said to be a success. However, not everyone in our society stands on equal footing. That MBA-turned-CEO may have grown up in the best school district and had means to hire tutors. Another person may grow up in a neighborhood with lower-quality schools, and may not be able to pay for extra help. A person may have the socially acceptable goal of financial success but lack a socially acceptable way to reach that goal. According to Merton’s theory, an entrepreneur who can’t afford to launch their own company may be tempted to embezzle from their employer for start-up funds."
+   },
+   {
+    "id": "B-soc3e-p0148-001",
+    "page": 148,
+    "source": "soc3e",
+    "section": "5.4 Socialization Across the Life Course",
+    "chapter": 5,
+    "score": 0.015625,
+    "rank": 5,
+    "origin": "search",
+    "text": "5.4 Socialization Across the Life Course\nMany individuals are resocialized into an institution through a two-part process. First, members entering an institution must leave behind their old identity through what is known as a degradation ceremony. In a degradation ceremony, new members lose the aspects of their old identity and are given new identities. The process is sometimes gentle. To enter a senior care home, an elderly person often must leave a family home and give up many belongings which were part of his or her long-standing identity. Though caretakers guide the elderly compassionately, the process can still be one of loss. In many cults, this process is also gentle and happens in an environment of support and caring.\nIn other situations, the degradation ceremony can be more extreme. New prisoners lose freedom, rights (including the right to privacy), and personal belongings. When entering the military, soldiers have their hair cut short. Their old clothes are removed, and they wear matching uniforms. These individuals must give up any markers of their former identity in order to be resocialized into an identity as a “soldier.”"
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t03",
+  "question": "Which pair of reunited twins is described as an example for studying the impact of nature?",
+  "status": "answered",
+  "reason": "model_answer",
+  "answer": "Elyse Schein and Paula Bernstein are described as twin girls who were separated at adoption in 1968 and later reunited in 2003, serving as an example for studying the impact of nature [B-soc3e-p0137-001] [B-soc3e-p0137-002].",
+  "citations": [
+   "B-soc3e-p0137-001",
+   "B-soc3e-p0137-002"
+  ],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.204,
+    "retries": 0,
+    "usage": {
+     "prompt": 710,
+     "output": 36,
+     "thoughts": 59,
+     "total": 805
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "reunited twins nature nurture",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": "Searching for reunited twins in relation to nature versus nurture.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0137-001",
+      "score": 0.0325,
+      "rank": 1,
+      "page": 137
+     },
+     {
+      "id": "B-soc3e-p0138-000",
+      "score": 0.0325,
+      "rank": 2,
+      "page": 138
+     },
+     {
+      "id": "B-soc3e-p0139-000",
+      "score": 0.0315,
+      "rank": 3,
+      "page": 139
+     },
+     {
+      "id": "B-soc3e-p0137-002",
+      "score": 0.0301,
+      "rank": 4,
+      "page": 137
+     },
+     {
+      "id": "B-soc3e-p0136-003",
+      "score": 0.03,
+      "rank": 5,
+      "page": 136
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0137-001",
+     "B-soc3e-p0138-000",
+     "B-soc3e-p0139-000",
+     "B-soc3e-p0137-002",
+     "B-soc3e-p0136-003"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.03,
+    "context_chars_used": 2521
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 11.421,
+    "retries": 0,
+    "usage": {
+     "prompt": 1558,
+     "output": 35,
+     "thoughts": 170,
+     "total": 1763
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Elyse Schein Paula Bernstein",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": "Checking for any other specific twins mentioned by name.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0137-002",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 137
+     },
+     {
+      "id": "B-soc3e-p0133-000",
+      "score": 0.0161,
+      "rank": 2,
+      "page": 133
+     },
+     {
+      "id": "B-soc3e-p0134-002",
+      "score": 0.0161,
+      "rank": 3,
+      "page": 134
+     },
+     {
+      "id": "B-soc3e-p0134-003",
+      "score": 0.0159,
+      "rank": 4,
+      "page": 134
+     },
+     {
+      "id": "B-soc3e-p0136-000",
+      "score": 0.0156,
+      "rank": 5,
+      "page": 136
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0133-000",
+     "B-soc3e-p0134-002",
+     "B-soc3e-p0134-003",
+     "B-soc3e-p0136-000"
+    ],
+    "duplicates": [
+     "B-soc3e-p0137-002"
+    ],
+    "budget_dropped": [],
+    "latency_s": 0.04,
+    "context_chars_used": 6060
+   },
+   {
+    "event": "model_call",
+    "n": 3,
+    "latency_s": 6.89,
+    "retries": 0,
+    "usage": {
+     "prompt": 2710,
+     "output": 178,
+     "thoughts": 369,
+     "total": 3257
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0137-001",
+     "B-soc3e-p0137-002"
+    ],
+    "answer": "Elyse Schein and Paula Bernstein are described as an example of identical twins separated at adoption in 1968 and reunited in 2003, whose similarities are studied to understand the impact of nature [B-soc3e-p0137-001, B-soc3e-p0137-002].",
+    "evidence_quote": "In 2003, the two women, then age thirty-five, were reunited. Elyse Schein and Paula Bernstein sat together in awe, feeling like they were looking into a mirror."
+   },
+   {
+    "event": "citation_check_failed",
+    "problem": " citations not written as [id] in the answer: ['B-soc3e-p0137-001', 'B-soc3e-p0137-002']"
+   },
+   {
+    "event": "model_call",
+    "n": 4,
+    "latency_s": 2.619,
+    "retries": 1,
+    "usage": {
+     "prompt": 3332,
+     "output": 180,
+     "thoughts": 34,
+     "total": 3546
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0137-001",
+     "B-soc3e-p0137-002"
+    ],
+    "answer": "Elyse Schein and Paula Bernstein are described as twin girls who were separated at adoption in 1968 and later reunited in 2003, serving as an example for studying the impact of nature [B-soc3e-p0137-001] [B-soc3e-p0137-002].",
+    "evidence_quote": "In 2003, the two women, then age thirty-five, were reunited. Elyse Schein and Paula Bernstein sat together in awe, feeling like they were looking into a mirror."
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 2,
+  "llm_calls": 4,
+  "tokens": {
+   "prompt": 8310,
+   "output": 429,
+   "thoughts": 632,
+   "total": 9371
+  },
+  "latency_s": 60.315,
+  "context_ids": [
+   "B-soc3e-p0137-001",
+   "B-soc3e-p0138-000",
+   "B-soc3e-p0139-000",
+   "B-soc3e-p0137-002",
+   "B-soc3e-p0136-003",
+   "B-soc3e-p0133-000",
+   "B-soc3e-p0134-002",
+   "B-soc3e-p0134-003",
+   "B-soc3e-p0136-000"
+  ],
+  "context_chars": 6060,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0137-001",
+    "page": 137,
+    "source": "soc3e",
+    "section": "5.2 Why Socialization Matters",
+    "chapter": 5,
+    "score": 0.03252247488101534,
+    "rank": 1,
+    "origin": "search",
+    "text": "5.2 Why Socialization Matters\nSome experts assert that who we are is a result of nurture—the relationships and caring that surround us. Others argue that who we are is based entirely in genetics. According to this belief, our temperaments, interests, and talents are set before birth. From this perspective, then, who we are depends on nature.\nOne way researchers attempt to measure the impact of nature is by studying twins. Some studies have followed identical twins who were raised separately. The pairs shared the same genetics but in some cases were socialized in different ways. Instances of this type of situation are rare, but studying the degree to which identical twins raised apart are the same and different can give researchers insight into the way our temperaments, preferences, and abilities are shaped by our genetic makeup versus our social environment.\nFor example, in 1968, twin girls were put up for adoption, separated from each other, and raised in different households. The adoptive parents, and certainly the babies, did not realize the girls were one of five pairs of twins who were made subjects of a scientific study (Flam 2007)."
+   },
+   {
+    "id": "B-soc3e-p0138-000",
+    "page": 138,
+    "source": "soc3e",
+    "section": "5.2 Why Socialization Matters",
+    "chapter": 5,
+    "score": 0.03252247488101534,
+    "rank": 2,
+    "origin": "search",
+    "text": "5.2 Why Socialization Matters\nthe same hand gestures and facial expressions (Spratling 2007). Studies like these point to the genetic roots of our temperament and behavior.\nThough genetics and hormones play an important role in human behavior, sociology’s larger concern is the effect society has on human behavior, the “nurture” side of the nature versus nurture debate. What race were the twins? From what social class were their parents? What about gender? Religion? All these factors affected the lives of the twins as much as their genetic makeup and are critical to consider as we look at life through the sociological lens."
+   },
+   {
+    "id": "B-soc3e-p0139-000",
+    "page": 139,
+    "source": "soc3e",
+    "section": "5.2 Why Socialization Matters",
+    "chapter": 5,
+    "score": 0.03149801587301587,
+    "rank": 3,
+    "origin": "search",
+    "text": "5.2 Why Socialization Matters\nFIGURE 5.3 Identical twins may look alike, but their differences can give us clues to the effects of socialization.\nThese twins chose the same career path, but many twins do not. (Credit: Senior Airman Lauren Douglas/U.S. Air Force)"
+   },
+   {
+    "id": "B-soc3e-p0137-002",
+    "page": 137,
+    "source": "soc3e",
+    "section": "5.2 Why Socialization Matters",
+    "chapter": 5,
+    "score": 0.030090497737556562,
+    "rank": 4,
+    "origin": "search",
+    "text": "5.2 Why Socialization Matters\nIn 2003, the two women, then age thirty-five, were reunited. Elyse Schein and Paula Bernstein sat together in awe, feeling like they were looking into a mirror. Not only did they look alike but they also behaved alike, using"
+   },
+   {
+    "id": "B-soc3e-p0136-003",
+    "page": 136,
+    "source": "soc3e",
+    "section": "5.2 Why Socialization Matters",
+    "chapter": 5,
+    "score": 0.029957522915269395,
+    "rank": 5,
+    "origin": "search",
+    "text": "5.2 Why Socialization Matters\nLEARNING OBJECTIVES\nBy the end of this section, you should be able to:\n• Describe the importance of socialization both for individuals and society • Explain the nature versus nurture debate"
+   },
+   {
+    "id": "B-soc3e-p0133-000",
+    "page": 133,
+    "source": "soc3e",
+    "section": "Introduction",
+    "chapter": 5,
+    "score": 0.016129032258064516,
+    "rank": 2,
+    "origin": "search",
+    "text": "Introduction\nprepared for the pacing and style; their previous experience was in opposition to the culture of the hospital. Company culture is easier to learn if someone is predisposed to it, while others might need time to unlearn past behaviors (Schein 1988). Experts indicate that the responsibility for such adaptation is shared between the new employee and the company.\nHow could Noel have learned, and what could Tracy have done to help? Company culture is learned the same way that other types of culture are learned: through observing and adapting to the norms and values, understanding and applying beliefs, and, in general, seeking to be productive as a member of the group. Just like a child learns how to behave during a play-date or school day, people learn to be productive partners through an ongoing process called socialization."
+   },
+   {
+    "id": "B-soc3e-p0134-002",
+    "page": 134,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.016129032258064516,
+    "rank": 3,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nÉmile Durkheim (1858–1917) was the first to make this distinction in research, when he attributed differences in suicide rates among people to social causes (religious differences) rather than to psychological causes (like their mental wellbeing) (Durkheim 1897). Today, we see this same distinction. For example, a sociologist studying how a couple gets to the point of their first kiss on a date might focus her research on cultural norms for dating, social patterns of sexual activity over time, or how this process is different for seniors than for teens. A psychologist would more likely be interested in the person’s earliest sexual awareness or the mental processing of sexual desire.\nSometimes sociologists and psychologists have collaborated to increase knowledge. In recent decades, however, their fields have become more clearly separated as sociologists increasingly focus on large societal issues and patterns, while psychologists remain honed in on the human mind. Both disciplines make valuable contributions through different approaches that provide us with different types of useful insights.\nSociological Theories of Self-Development"
+   },
+   {
+    "id": "B-soc3e-p0134-003",
+    "page": 134,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.015873015873015872,
+    "rank": 4,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nOne of the pioneering contributors to sociological perspectives was Charles Cooley (1864–1929). He asserted that people’s self understanding is constructed, in part, by their perception of how others view them—a process termed “the looking glass self” (Cooley 1902).\nLater, George Herbert Mead (1863–1931) studied the self, a person’s distinct identity that is developed through social interaction. In order to engage in this process of “self,” an individual has to be able to view him or herself through the eyes of others. That’s not an ability that we are born with (Mead 1934). Through socialization we learn to put ourselves in someone else's shoes and look at the world through their perspective. This assists us in becoming self-aware, as we look at ourselves from the perspective of the \"other.\" The case of Danielle, for example, illustrates what happens when social interaction is absent from early experience: Danielle had no ability to see herself as others would see her. From Mead’s point of view, she had no “self.”"
+   },
+   {
+    "id": "B-soc3e-p0136-000",
+    "page": 136,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.015625,
+    "rank": 5,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nwhere flexibility allows for harmony in caretaking and nurturing (Gilligan 1982; Gilligan 1990).\nWhat a Pretty Little Lady! “What a cute dress!” “I like the ribbons in your hair.” “Wow, you look so pretty today.”\nAccording to Lisa Bloom, author of Think: Straight Talk for Women to Stay Smart in a Dumbed Down World, most of us use pleasantries like these when we first meet little girls. “So what?” you might ask."
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t04",
+  "question": "How does the textbook define a peer group?",
+  "status": "answered",
+  "reason": "model_answer",
+  "answer": "The textbook defines a peer group as a group made up of people who are similar in age and social status and who share interests [B-soc3e-p0141-000].",
+  "citations": [
+   "B-soc3e-p0141-000"
+  ],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.281,
+    "retries": 0,
+    "usage": {
+     "prompt": 702,
+     "output": 41,
+     "thoughts": 38,
+     "total": 781
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "peer group definition",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": {
+     "chapter": 5
+    },
+    "filter_reason": "Peer groups are a key agent of socialization discussed in Chapter 5.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0141-000",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 141
+     },
+     {
+      "id": "B-soc3e-p0150-000",
+      "score": 0.0318,
+      "rank": 2,
+      "page": 150
+     },
+     {
+      "id": "B-soc3e-p0139-002",
+      "score": 0.0315,
+      "rank": 3,
+      "page": 139
+     },
+     {
+      "id": "B-soc3e-p0150-002",
+      "score": 0.0315,
+      "rank": 4,
+      "page": 150
+     },
+     {
+      "id": "B-soc3e-p0133-002",
+      "score": 0.029,
+      "rank": 5,
+      "page": 133
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0141-000",
+     "B-soc3e-p0150-000",
+     "B-soc3e-p0139-002",
+     "B-soc3e-p0150-002",
+     "B-soc3e-p0133-002"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.054,
+    "context_chars_used": 4389
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 6.199,
+    "retries": 0,
+    "usage": {
+     "prompt": 1797,
+     "output": 108,
+     "thoughts": 186,
+     "total": 2091
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0141-000"
+    ],
+    "answer": "The textbook defines a peer group as a group made up of people who are similar in age and social status and who share interests [B-soc3e-p0141-000].",
+    "evidence_quote": "A peer group is made up of people who are similar in age and social status and who share interests."
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 1,
+  "llm_calls": 2,
+  "tokens": {
+   "prompt": 2499,
+   "output": 149,
+   "thoughts": 224,
+   "total": 2872
+  },
+  "latency_s": 20.478,
+  "context_ids": [
+   "B-soc3e-p0141-000",
+   "B-soc3e-p0150-000",
+   "B-soc3e-p0139-002",
+   "B-soc3e-p0150-002",
+   "B-soc3e-p0133-002"
+  ],
+  "context_chars": 4389,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0141-000",
+    "page": 141,
+    "source": "soc3e",
+    "section": "5.3 Agents of Socialization",
+    "chapter": 5,
+    "score": 0.03278688524590164,
+    "rank": 1,
+    "origin": "search",
+    "text": "5.3 Agents of Socialization\nFIGURE 5.4 The socialized roles of parents and guardians vary by society. (Credit: Quaries.com/flickr)\nPeer Groups\nA peer group is made up of people who are similar in age and social status and who share interests. Peer group socialization begins in the earliest years, such as when kids on a playground teach younger children the norms about taking turns, the rules of a game, or how to shoot a basket. As children grow into teenagers, this process continues. Peer groups are important to adolescents in a new way, as they begin to develop an identity separate from their parents and exert independence. Additionally, peer groups provide their own opportunities for socialization since kids usually engage in different types of activities with their peers than they do with their families. Peer groups provide adolescents’ first major socialization experience outside the realm of their families. Interestingly, studies have shown that although friendships rank high in adolescents’ priorities, this is balanced by parental influence.\nInstitutional Agents"
+   },
+   {
+    "id": "B-soc3e-p0150-000",
+    "page": 150,
+    "source": "soc3e",
+    "section": "Key Terms",
+    "chapter": 5,
+    "score": 0.031754032258064516,
+    "rank": 2,
+    "origin": "search",
+    "text": "Key Terms\nanticipatory socialization the way we prepare for future life roles degradation ceremony the process by which new members of a total institution lose aspects of their old identities and are given new ones generalized other the common behavioral expectations of general society hidden curriculum the informal teaching done in schools that socializes children to societal norms moral development the way people learn what is “good” and “bad” in society nature the influence of our genetic makeup on self-development nurture the role that our social environment plays in self-development peer group a group made up of people who are similar in age and social status and who share interests resocialization the process by which old behaviors are removed and new behaviors are learned in their place self a person’s distinct sense of identity as developed through social interaction socialization the process wherein people come to understand societal norms and expectations, to accept society’s beliefs, and to be aware of societal values"
+   },
+   {
+    "id": "B-soc3e-p0139-002",
+    "page": 139,
+    "source": "soc3e",
+    "section": "5.3 Agents of Socialization",
+    "chapter": 5,
+    "score": 0.0315136476426799,
+    "rank": 3,
+    "origin": "search",
+    "text": "5.3 Agents of Socialization\nLEARNING OBJECTIVES\nBy the end of this section, you should be able to:\n• Evaluate the roles of families and peer groups in socialization • Describe how people are socialized through institutions like schools, workplaces, and the government\nSocialization helps people learn to function successfully in their social worlds. How does the process of socialization occur? How do we learn to use the objects of our society’s material culture? How do we come to adopt the beliefs, values, and norms that represent its nonmaterial culture? This learning takes place through interaction with various agents of socialization, like peer groups and families, plus both formal and informal social institutions.\nSocial Group Agents\nSocial groups often provide the first experiences of socialization. Families, and later peer groups, communicate expectations and reinforce norms. People first learn to use the tangible objects of material"
+   },
+   {
+    "id": "B-soc3e-p0150-002",
+    "page": 150,
+    "source": "soc3e",
+    "section": "Section Summary",
+    "chapter": 5,
+    "score": 0.03149801587301587,
+    "rank": 4,
+    "origin": "search",
+    "text": "Section Summary\nOur direct interactions with social groups, like families and peers, teach us how others expect us to behave. Likewise, a society’s formal and informal institutions socialize its population. Schools, workplaces, and the media communicate and reinforce cultural norms and values.\n5.4 Socialization Across the Life Course\nSocialization is a lifelong process that reoccurs as we enter new phases of life, such as adulthood or senior age. Resocialization is a process that removes the socialization we have developed over time and replaces it with newly learned rules and roles. Because it involves removing old habits that have been built up, resocialization can be a stressful and difficult process."
+   },
+   {
+    "id": "B-soc3e-p0133-002",
+    "page": 133,
+    "source": "soc3e",
+    "section": "Introduction",
+    "chapter": 5,
+    "score": 0.02904040404040404,
+    "rank": 5,
+    "origin": "search",
+    "text": "Introduction\nIn the following sections, we will examine the importance of the complex process of socialization and how it takes place through interaction with many individuals, groups, and social institutions. We will explore how socialization is not only critical to children as they develop but how it is also a lifelong process through which we become prepared for new social environments and expectations in every stage of our lives. But first, we will turn to scholarship about self-development, the process of coming to recognize a sense of self, a “self” that is then able to be socialized."
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t05",
+  "question": "Who is associated with the term McDonaldization of society, and what does it refer to?",
+  "status": "answered",
+  "reason": "model_answer",
+  "answer": "The term the McDonaldization of society is associated with Ritzer (1993) and refers to the increasing presence of the fast-food business model in common social institutions, including government, education, and relationships [B-soc3e-p0174-000]. This model includes efficiency, predictability, calculability, and control [B-soc3e-p0174-000].",
+  "citations": [
+   "B-soc3e-p0174-000"
+  ],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.186,
+    "retries": 0,
+    "usage": {
+     "prompt": 711,
+     "output": 17,
+     "thoughts": 40,
+     "total": 768
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "McDonaldization of society",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": null,
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0174-000",
+      "score": 0.0323,
+      "rank": 1,
+      "page": 174
+     },
+     {
+      "id": "B-soc3e-p0180-000",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 180
+     },
+     {
+      "id": "B-soc3e-p0173-003",
+      "score": 0.0323,
+      "rank": 3,
+      "page": 173
+     },
+     {
+      "id": "B-soc3e-p0174-002",
+      "score": 0.0312,
+      "rank": 4,
+      "page": 174
+     },
+     {
+      "id": "B-soc3e-p0177-001",
+      "score": 0.0303,
+      "rank": 5,
+      "page": 177
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0174-000",
+     "B-soc3e-p0180-000",
+     "B-soc3e-p0173-003",
+     "B-soc3e-p0174-002",
+     "B-soc3e-p0177-001"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.145,
+    "context_chars_used": 3566
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 1.305,
+    "retries": 0,
+    "usage": {
+     "prompt": 1685,
+     "output": 15,
+     "thoughts": 144,
+     "total": 1844
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Ritzer",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": null,
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0174-000",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 174
+     },
+     {
+      "id": "B-soc3e-p0135-004",
+      "score": 0.0161,
+      "rank": 2,
+      "page": 135
+     },
+     {
+      "id": "B-soc3e-p0135-003",
+      "score": 0.0159,
+      "rank": 3,
+      "page": 135
+     },
+     {
+      "id": "B-soc3e-p0132-000",
+      "score": 0.0156,
+      "rank": 4,
+      "page": 132
+     },
+     {
+      "id": "B-soc3e-p0136-000",
+      "score": 0.0154,
+      "rank": 5,
+      "page": 136
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0135-004",
+     "B-soc3e-p0135-003",
+     "B-soc3e-p0132-000",
+     "B-soc3e-p0136-000"
+    ],
+    "duplicates": [
+     "B-soc3e-p0174-000"
+    ],
+    "budget_dropped": [],
+    "latency_s": 0.031,
+    "context_chars_used": 7050
+   },
+   {
+    "event": "model_call",
+    "n": 3,
+    "latency_s": 1.543,
+    "retries": 0,
+    "usage": {
+     "prompt": 2734,
+     "output": 16,
+     "thoughts": 32,
+     "total": 2782
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "George Ritzer",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": null,
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0174-000",
+      "score": 0.0323,
+      "rank": 1,
+      "page": 174
+     },
+     {
+      "id": "B-soc3e-p0150-001",
+      "score": 0.0313,
+      "rank": 2,
+      "page": 150
+     },
+     {
+      "id": "B-soc3e-p0134-003",
+      "score": 0.0301,
+      "rank": 3,
+      "page": 134
+     },
+     {
+      "id": "B-soc3e-p0135-004",
+      "score": 0.0164,
+      "rank": 4,
+      "page": 135
+     },
+     {
+      "id": "B-soc3e-p0204-001",
+      "score": 0.0164,
+      "rank": 5,
+      "page": 204
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0204-001"
+    ],
+    "duplicates": [
+     "B-soc3e-p0174-000",
+     "B-soc3e-p0135-004"
+    ],
+    "budget_dropped": [
+     "B-soc3e-p0150-001",
+     "B-soc3e-p0134-003"
+    ],
+    "latency_s": 0.025,
+    "context_chars_used": 7786
+   },
+   {
+    "event": "model_call",
+    "n": 4,
+    "latency_s": 2.908,
+    "retries": 4,
+    "usage": {
+     "prompt": 3060,
+     "output": 173,
+     "thoughts": 242,
+     "total": 3475
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0174-000"
+    ],
+    "answer": "The term the McDonaldization of society is associated with Ritzer (1993) and refers to the increasing presence of the fast-food business model in common social institutions, including government, education, and relationships [B-soc3e-p0174-000]. This model includes efficiency, predictability, calculability, and control [B-soc3e-p0174-000].",
+    "evidence_quote": "The McDonaldization of Society (Ritzer 1993) refers to the increasing presence of the fast food business model in common social institutions, including government, education, and even relationships."
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 3,
+  "llm_calls": 4,
+  "tokens": {
+   "prompt": 8190,
+   "output": 221,
+   "thoughts": 458,
+   "total": 8869
+  },
+  "latency_s": 101.88,
+  "context_ids": [
+   "B-soc3e-p0174-000",
+   "B-soc3e-p0180-000",
+   "B-soc3e-p0173-003",
+   "B-soc3e-p0174-002",
+   "B-soc3e-p0177-001",
+   "B-soc3e-p0135-004",
+   "B-soc3e-p0135-003",
+   "B-soc3e-p0132-000",
+   "B-soc3e-p0136-000",
+   "B-soc3e-p0204-001"
+  ],
+  "context_chars": 7786,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0174-000",
+    "page": 174,
+    "source": "soc3e",
+    "section": "6.3 Formal Organizations",
+    "chapter": 6,
+    "score": 0.032266458495966696,
+    "rank": 1,
+    "origin": "search",
+    "text": "6.3 Formal Organizations\nThe McDonaldization of Society\nThe McDonaldization of Society (Ritzer 1993) refers to the increasing presence of the fast food business model in common social institutions, including government, education, and even relationships. The term itself isn't widely used in publications, research, or common conversation, but its effects are very familiar, even commonplace. The McDonald's model includes efficiency (the division of labor), predictability, calculability, and control (monitoring). For example, in your average chain grocery store, people at the register check out customers while stockers keep the shelves full of goods and deli workers slice meats and cheese to order (efficiency). Whenever you enter a store within that grocery chain, you receive the same type of goods, see the same store organization, and find the same brands at the same prices (predictability). You will find that goods are sold by the pound, so that you can weigh your fruit and vegetable purchase rather than simply guessing at the price for that bag of onions. The employees use a timecard to calculate their hours and receive overtime pay (calculability)."
+   },
+   {
+    "id": "B-soc3e-p0180-000",
+    "page": 180,
+    "source": "soc3e",
+    "section": "Section Quiz",
+    "chapter": 6,
+    "score": 0.032266458495966696,
+    "rank": 2,
+    "origin": "search",
+    "text": "Section Quiz\n18. What is an advantage of the McDonaldization of society? a. There is more variety of goods. b. There is less theft. c. There is more worldwide availability of goods. d. There is more opportunity for businesses.\n19. What is a disadvantage of the McDonaldization of society? a. There is less variety of goods. b. There is an increased need for employees with postgraduate degrees. c. There is less competition so prices are higher. d. There are fewer jobs so unemployment increases."
+   },
+   {
+    "id": "B-soc3e-p0173-003",
+    "page": 173,
+    "source": "soc3e",
+    "section": "6.3 Formal Organizations",
+    "chapter": 6,
+    "score": 0.03225806451612903,
+    "rank": 3,
+    "origin": "search",
+    "text": "6.3 Formal Organizations\nFIGURE 6.9 This McDonald’s storefront in Egypt shows the McDonaldization of society. (Credit: s_w_ellis/flickr)"
+   },
+   {
+    "id": "B-soc3e-p0174-002",
+    "page": 174,
+    "source": "soc3e",
+    "section": "6.3 Formal Organizations",
+    "chapter": 6,
+    "score": 0.03125,
+    "rank": 4,
+    "origin": "search",
+    "text": "6.3 Formal Organizations\nWhile McDonaldization has resulted in improved profits and an increased availability of various goods and services to more people worldwide, it has also reduced the variety of goods available in the marketplace while rendering available products uniform, generic, and bland. Think of the difference between a mass-produced shoe and one made by a local cobbler, between a chicken from a family-owned farm and a corporate grower, or between a cup of coffee from the local diner and one from Starbucks. Some more contemporary efforts can be referred to as “de-McDonaldization”: farmers markets, microbreweries, and various do-it-yourself trends. And with recent advertising and products emphasizing individuality, even McDonald’s seems to be de-McDonaldizing itself."
+   },
+   {
+    "id": "B-soc3e-p0177-001",
+    "page": 177,
+    "source": "soc3e",
+    "section": "Section Summary",
+    "chapter": 6,
+    "score": 0.030303030303030304,
+    "rank": 5,
+    "origin": "search",
+    "text": "Section Summary\nexperiments have illustrated how strong the drive to conform can be. It is worth considering real-life examples of how conformity and obedience can lead people to ethically and morally suspect acts.\n6.3 Formal Organizations\nLarge organizations fall into three main categories: normative/voluntary, coercive, and utilitarian. We live in a time of contradiction: while the pace of change and technology are requiring people to be more nimble and less bureaucratic in their thinking, large bureaucracies like hospitals, schools, and governments are more hampered than ever by their organizational format. At the same time, the past few decades have seen the development of a trend to bureaucratize and conventionalize local institutions. Increasingly, Main Streets across the country resemble each other; instead of a Bob’s Coffee Shop and Jane’s Hair Salon there is a Dunkin Donuts and a Supercuts. This trend has been referred to as the McDonaldization of society."
+   },
+   {
+    "id": "B-soc3e-p0135-004",
+    "page": 135,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.016129032258064516,
+    "rank": 2,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nWhile Gilligan is correct that Kohlberg’s research should have included both male and female subjects, her study has been scientifically discredited due to its small sample size. The results Gilligan noted in this study also have not been replicated by subsequent researchers. The differences Gilligan observed were not an issue of the development of morality, but an issue of socialization. Differences in behavior between males and females is the result of gender socialization that teaches boys and girls societal norms and behaviors expected of them based on their sex (see “What a Pretty Little Lady”).\nGilligan also recognized that Kohlberg’s theory rested on the assumption that the justice perspective was the right, or better, perspective. Gilligan, in contrast, theorized that neither perspective was “better”: the two norms of justice served different purposes. Ultimately, she explained that boys are socialized for a work environment where rules make operations run smoothly, while girls are socialized for a home environment"
+   },
+   {
+    "id": "B-soc3e-p0135-003",
+    "page": 135,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.015873015873015872,
+    "rank": 3,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nAnother sociologist, Carol Gilligan (1936–), recognized that Kohlberg’s theory might show gender bias since his research was only conducted on male subjects. Would females study subjects have responded differently? Would a female social scientist notice different patterns when analyzing the research? To answer the first question, she set out to study differences between how boys and girls developed morality. Gilligan’s research suggested that boys and girls do have different understandings of morality. Boys appeared to have a justice perspective, by placing emphasis on rules and laws. Girls, on the other hand, seem to have a care and responsibility perspective; they consider people’s reasons behind behavior that seems morally wrong."
+   },
+   {
+    "id": "B-soc3e-p0132-000",
+    "page": 132,
+    "source": "soc3e",
+    "section": "Introduction",
+    "chapter": 5,
+    "score": 0.015625,
+    "rank": 4,
+    "origin": "search",
+    "text": "Introduction\ndecisions. The EMTs relied heavily on their training and guidelines, but they did so quickly. And upon arriving at the hospital with a patient, Noel was similarly impacted by the efficiency of the nurses, doctors, and other staff. Noel developed a deep level of respect for that level of decisiveness and the expertise it required.\nOver their college years, Noel found themselves drawn toward the more strategic aspects of medicine, and pursued a degree in healthcare administration. Meanwhile, they did get an EMT certification and joined the college emergency services team; later on, while in grad school, Noel was a part-time professional EMT in a small city. With good grades and varied experience, Noel was recruited into a great job several states away.\nAfter interning in an urban hospital and spending years as an EMT, Noel had come to expect a degree of urgency in medicine. Hospital administration was certainly not an ambulance facility, but the slow pace of Noel's job was agonizing. Every inventory list, bill of lading, email reply, and even meeting schedule went through at several people for approval. Noel enjoyed the job, but was used to working more quickly."
+   },
+   {
+    "id": "B-soc3e-p0136-000",
+    "page": 136,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.015384615384615385,
+    "rank": 5,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nwhere flexibility allows for harmony in caretaking and nurturing (Gilligan 1982; Gilligan 1990).\nWhat a Pretty Little Lady! “What a cute dress!” “I like the ribbons in your hair.” “Wow, you look so pretty today.”\nAccording to Lisa Bloom, author of Think: Straight Talk for Women to Stay Smart in a Dumbed Down World, most of us use pleasantries like these when we first meet little girls. “So what?” you might ask."
+   },
+   {
+    "id": "B-soc3e-p0204-001",
+    "page": 204,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.01639344262295082,
+    "rank": 5,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nNo issue related to race and policing is of more concern than the shooting of unarmed Black people by police. The lack of punishment of police officers for committing these acts perpetuates the issue of unequal justice. Eric Garner was killed by an officer using a prohibited chokehold after Garner had allegedly committed a misdemeanor. Breonna Taylor was killed by police who violently infiltrated the wrong home. None of the officers involved in those deaths were prosecuted, though several were fired. The officer who killed George Floyd was immediately charged with the crime, and was eventually convicted, but some believe that to be the case due to the clear and horrific video of the event (Abdollah 2021)."
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t06",
+  "question": "What theory did Edwin Sutherland establish about how deviant behavior develops?",
+  "status": "answered",
+  "reason": "model_answer",
+  "answer": "Edwin Sutherland established differential association theory, which suggests that individuals learn deviant behavior from those close to them who provide models of and opportunities for deviance [B-soc3e-p0196-001].",
+  "citations": [
+   "B-soc3e-p0196-001"
+  ],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.079,
+    "retries": 0,
+    "usage": {
+     "prompt": 705,
+     "output": 55,
+     "thoughts": 34,
+     "total": 794
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Edwin Sutherland theory deviant behavior develop differential association",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": {
+     "chapter": 7
+    },
+    "filter_reason": "Edwin Sutherland's theory of deviant behavior relates to deviance and crime, which is covered in Chapter 7.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0196-001",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 196
+     },
+     {
+      "id": "B-soc3e-p0198-000",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 198
+     },
+     {
+      "id": "B-soc3e-p0196-002",
+      "score": 0.0313,
+      "rank": 3,
+      "page": 196
+     },
+     {
+      "id": "B-soc3e-p0197-000",
+      "score": 0.0303,
+      "rank": 4,
+      "page": 197
+     },
+     {
+      "id": "B-soc3e-p0205-000",
+      "score": 0.0301,
+      "rank": 5,
+      "page": 205
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0196-001",
+     "B-soc3e-p0198-000",
+     "B-soc3e-p0196-002",
+     "B-soc3e-p0197-000",
+     "B-soc3e-p0205-000"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.095,
+    "context_chars_used": 4336
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 1.87,
+    "retries": 0,
+    "usage": {
+     "prompt": 1810,
+     "output": 119,
+     "thoughts": 228,
+     "total": 2157
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0196-001"
+    ],
+    "answer": "Edwin Sutherland established differential association theory, which suggests that individuals learn deviant behavior from those close to them who provide models of and opportunities for deviance [B-soc3e-p0196-001].",
+    "evidence_quote": "His conclusions established differential association theory, which suggested that individuals learn deviant behavior from those close to them who provide models of and opportunities for deviance."
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 1,
+  "llm_calls": 2,
+  "tokens": {
+   "prompt": 2515,
+   "output": 174,
+   "thoughts": 262,
+   "total": 2951
+  },
+  "latency_s": 15.944,
+  "context_ids": [
+   "B-soc3e-p0196-001",
+   "B-soc3e-p0198-000",
+   "B-soc3e-p0196-002",
+   "B-soc3e-p0197-000",
+   "B-soc3e-p0205-000"
+  ],
+  "context_chars": 4336,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0196-001",
+    "page": 196,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.03278688524590164,
+    "rank": 1,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nIn the early 1900s, sociologist Edwin Sutherland sought to understand how deviant behavior developed among people. Since criminology was a young field, he drew on other aspects of sociology including social interactions and group learning (Laub 2006). His conclusions established differential association theory, which suggested that individuals learn deviant behavior from those close to them who provide models of and opportunities for deviance. According to Sutherland, deviance is less a personal choice and more a result of differential socialization processes. For example, a young person whose friends are sexually active is more likely to view sexual activity as acceptable. Sutherland developed a series of propositions to explain how deviance is learned. In proposition five, for example, he discussed how people begin to accept and participate in a behavior after learning whether it is viewed as “favorable” by those around them."
+   },
+   {
+    "id": "B-soc3e-p0198-000",
+    "page": 198,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.03225806451612903,
+    "rank": 2,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nPower Elite C. Wright Mills Ability of those in power to define deviance in ways that maintain the status quo\nSymbolic Interactionism\nAssociated Theorist Deviance arises from:\nLabeling Theory Edwin Lemert The reactions of others, particularly those in power who are able to determine labels\nDifferential Association Theory\nEdwin Sutherland Learning and modeling deviant behavior seen in other people close to the individual\nControl Theory Travis Hirschi Feelings of disconnection from society\nTABLE 7.2"
+   },
+   {
+    "id": "B-soc3e-p0196-002",
+    "page": 196,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.03125763125763126,
+    "rank": 3,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nIn proposition six, Sutherland expressed the ways that exposure to more “definitions” favoring the deviant behavior than those opposing it may eventually lead a person to partake in deviance (Sutherland 1960), applying almost a quantitative element to the learning of certain behaviors. In the example above, a young person may find sexual activity more acceptable once a certain number of their friends become sexually active, not after only"
+   },
+   {
+    "id": "B-soc3e-p0197-000",
+    "page": 197,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.030330882352941176,
+    "rank": 4,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\none does so.\nSutherland’s theory may explain why crime is multigenerational. A longitudinal study beginning in the 1960s found that the best predictor of antisocial and criminal behavior in children was whether their parents had been convicted of a crime (Todd and Jury 1996). Children who were younger than ten years old when their parents were convicted were more likely than other children to engage in spousal abuse and criminal behavior by their early thirties. Even when taking socioeconomic factors such as dangerous neighborhoods, poor school systems, and overcrowded housing into consideration, researchers found that parents were the main influence on the behavior of their offspring (Todd and Jury 1996).\nTravis Hirschi: Control Theory\nContinuing with an examination of large social factors, control theory states that social control is directly affected by the strength of social bonds and that deviance results from a feeling of disconnection from society. Individuals who believe they are a part of society are less likely to commit crimes against it."
+   },
+   {
+    "id": "B-soc3e-p0205-000",
+    "page": 205,
+    "source": "soc3e",
+    "section": "Key Terms",
+    "chapter": 7,
+    "score": 0.030117753623188408,
+    "rank": 5,
+    "origin": "search",
+    "text": "Key Terms\nconflict theory a theory that examines social and economic factors as the causes of criminal deviance control theory a theory that states social control is directly affected by the strength of social bonds and that deviance results from a feeling of disconnection from society corporate crime crime committed by white-collar workers in a business environment corrections system the system tasked with supervising individuals who have been arrested for, convicted of, or sentenced for criminal offenses court a system that has the authority to make decisions based on law crime a behavior that violates official law and is punishable through formal sanctions criminal justice system an organization that exists to enforce a legal code cultural deviance theory a theory that suggests conformity to the prevailing cultural norms of lower-class society causes crime deviance a violation of contextual, cultural, or social norms differential association theory a theory that states individuals learn deviant behavior from those close to them who provide models of and opportunities for deviance formal sanctions sanctions that are officially recognized and enforced hate crimes"
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t07",
+  "question": "What is the difference between a prison and a jail?",
+  "status": "answered",
+  "reason": "model_answer",
+  "answer": "A jail provides temporary confinement—usually while someone awaits trial or parole—and is small and local. In contrast, a prison is a large facility built for individuals serving sentences of more than a year and is run by either the state or the federal government [B-soc3e-p0203-002].",
+  "citations": [
+   "B-soc3e-p0203-002"
+  ],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.178,
+    "retries": 0,
+    "usage": {
+     "prompt": 704,
+     "output": 54,
+     "thoughts": 45,
+     "total": 803
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "difference between prison and jail",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": {
+     "chapter": 7
+    },
+    "filter_reason": "Prisons and jails are topics related to corrections and social control, covered in Chapter 7.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0203-002",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 203
+     },
+     {
+      "id": "B-soc3e-p0203-003",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 203
+     },
+     {
+      "id": "B-soc3e-p0203-000",
+      "score": 0.0317,
+      "rank": 3,
+      "page": 203
+     },
+     {
+      "id": "B-soc3e-p0193-002",
+      "score": 0.031,
+      "rank": 4,
+      "page": 193
+     },
+     {
+      "id": "B-soc3e-p0193-003",
+      "score": 0.0288,
+      "rank": 5,
+      "page": 193
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0203-002",
+     "B-soc3e-p0203-003",
+     "B-soc3e-p0203-000",
+     "B-soc3e-p0193-002",
+     "B-soc3e-p0193-003"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.029,
+    "context_chars_used": 4919
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 2.738,
+    "retries": 0,
+    "usage": {
+     "prompt": 2013,
+     "output": 162,
+     "thoughts": 234,
+     "total": 2409
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0203-002"
+    ],
+    "answer": "A jail provides temporary confinement—usually while someone awaits trial or parole—and is small and local. In contrast, a prison is a large facility built for individuals serving sentences of more than a year and is run by either the state or the federal government [B-soc3e-p0203-002].",
+    "evidence_quote": "A jail provides temporary confinement, usually while an individual awaits trial or parole. Prisons are facilities built for individuals serving sentences of more than a year. Whereas jails are small and local, prisons are large and run by either the state or the federal government."
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 1,
+  "llm_calls": 2,
+  "tokens": {
+   "prompt": 2717,
+   "output": 216,
+   "thoughts": 279,
+   "total": 3212
+  },
+  "latency_s": 16.913,
+  "context_ids": [
+   "B-soc3e-p0203-002",
+   "B-soc3e-p0203-003",
+   "B-soc3e-p0203-000",
+   "B-soc3e-p0193-002",
+   "B-soc3e-p0193-003"
+  ],
+  "context_chars": 4919,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0203-002",
+    "page": 203,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.03278688524590164,
+    "rank": 1,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nPrison is different from jail. A jail provides temporary confinement, usually while an individual awaits trial or parole. Prisons are facilities built for individuals serving sentences of more than a year. Whereas jails are small and local, prisons are large and run by either the state or the federal government. While incarcerated, people have differing levels of freedom and opportunity for engagement. Some inmates have options to take classes, play organized sports, and otherwise enrich themselves, usually with the goal of improving their lives upon release. Other incarcerated people have very limited opportunities. Usually these distinctions are based on the severity of their crimes and their behavior once imprisoned, but available resources and funding can be a significant factor."
+   },
+   {
+    "id": "B-soc3e-p0203-003",
+    "page": 203,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.03225806451612903,
+    "rank": 2,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nParole refers to a temporary release from prison or jail that requires supervision and the consent of officials. Parole is different from probation, which is supervised time used as an alternative to prison. Probation and parole can both follow a period of incarceration in prison, especially if the prison sentence is shortened. Most people in these situations are supervised by correctional officers or other appropriate professionals, including mental health professionals; they may attend regular meetings or counseling sessions and may be required to report on their activities and travel. People on probation or parole often have strict guidelines; not only will they be returned to jail upon committing a crime, but they may also be prohibited from associating with known criminals or suspects. These strategies are designed to prevent people on parole or probation from returning to criminal engagements, and to increase the likelihood that they will remain positive members of the community through interactions with family, productive employment, and mental health treatment if needed.\nPolicing and Race"
+   },
+   {
+    "id": "B-soc3e-p0203-000",
+    "page": 203,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.031746031746031744,
+    "rank": 3,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\ncourtroom of the Michigan Supreme Court (right). (Credit: (a) Ammodramus/Wikimedia Commons; Photo (b) Steve & Christine/Wikimedia Commons)\nCorrections\nThe corrections system is charged with supervising individuals who have been arrested, convicted, and sentenced for a criminal offense, plus people detained while awaiting hearings, trials, or other procedures. At the end of 2018, approximately 2.3 million people were incarcerated in the United States (BJS 2020); these include people who are in state and federal prisons as well as those in local jails or related facilities, as explained below. Since many convicted people are placed on probation or parole, have their sentences deferred or otherwise altered, or are released under other circumstances, the total number of people within the corrections system is much higher. In 2018, the total number of people either incarcerated, detained, paroled, or on probation was 6,410,000 (BJS 2020)."
+   },
+   {
+    "id": "B-soc3e-p0193-002",
+    "page": 193,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.031009615384615385,
+    "rank": 4,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nThis imbalance based on class power is also found within U.S. criminal law. In the 1980s, the use of crack cocaine (a less expensive but powerful drug) quickly became an epidemic that swept the country’s poorest urban communities. Its pricier counterpart, cocaine, was associated with upscale users and was a drug of choice for the wealthy. The legal implications of being caught by authorities with crack versus cocaine were starkly different. In 1986, federal law mandated that being caught in possession of 50 grams of crack was punishable by a ten-year prison sentence. An equivalent prison sentence for cocaine possession, however, required possession of 5,000 grams. In other words, the sentencing disparity was 1 to 100 (New York Times Editorial Staff 2011). This inequality in the severity of punishment for crack versus cocaine paralleled the unequal social class of respective users. A conflict theorist would note that those in society who hold the power are also the ones who make the laws concerning crime."
+   },
+   {
+    "id": "B-soc3e-p0193-003",
+    "page": 193,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.028790389395194696,
+    "rank": 5,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nIn doing so, they make laws that will benefit them, while the powerless classes who lack the resources to make such decisions suffer the consequences. Throughout the 1980s and early 1990s, states passed numerous laws increasing penalties, especially for repeat offenders. The U.S. government passed an even more significant law, the Violent Crime Control and Law Enforcement Act of 1994 (known as the 1994 Crime Bill), which further increased penalties, funded prisons, and incentivized law enforcement agencies to further pursue drug offenders. One outcome of these policies was the mass incarceration of Black and Hispanic people, which led to a cycle of poverty and reduced social mobility. The crack-cocaine punishment disparity remained until 2010, when President Obama signed the Fair Sentencing Act, which decreased the disparity to 1 to 18 (The Sentencing Project 2010)."
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t08",
+  "question": "Which reports a higher crime rate, the FBI's Uniform Crime Reports or the National Crime Victimization Survey, and why?",
+  "status": "answered",
+  "reason": "model_answer",
+  "answer": "The National Crime Victimization Survey (NCVS) reports a higher rate of crime than the FBI's Uniform Crime Reports (UCR) because it likely captures information on crimes that individuals experienced but never reported to the police [B-soc3e-p0201-000].",
+  "citations": [
+   "B-soc3e-p0201-000"
+  ],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.716,
+    "retries": 0,
+    "usage": {
+     "prompt": 718,
+     "output": 67,
+     "thoughts": 81,
+     "total": 866
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Uniform Crime Reports National Crime Victimization Survey higher crime rate why",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": {
+     "chapter": 7
+    },
+    "filter_reason": "Crime statistics sources like UCR and NCVS are covered in Chapter 7 (Deviance, Crime, and Social Control).",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0200-002",
+      "score": 0.0325,
+      "rank": 1,
+      "page": 200
+     },
+     {
+      "id": "B-soc3e-p0200-001",
+      "score": 0.032,
+      "rank": 2,
+      "page": 200
+     },
+     {
+      "id": "B-soc3e-p0201-000",
+      "score": 0.032,
+      "rank": 3,
+      "page": 201
+     },
+     {
+      "id": "B-soc3e-p0208-001",
+      "score": 0.0315,
+      "rank": 4,
+      "page": 208
+     },
+     {
+      "id": "B-soc3e-p0199-005",
+      "score": 0.0305,
+      "rank": 5,
+      "page": 199
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0200-002",
+     "B-soc3e-p0200-001",
+     "B-soc3e-p0201-000",
+     "B-soc3e-p0208-001",
+     "B-soc3e-p0199-005"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.045,
+    "context_chars_used": 3462
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 3.168,
+    "retries": 0,
+    "usage": {
+     "prompt": 1834,
+     "output": 136,
+     "thoughts": 354,
+     "total": 2324
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": false,
+    "citations": [
+     "B-soc3e-p0201-000"
+    ],
+    "answer": "The National Crime Victimization Survey (NCVS) reports a higher rate of crime than the FBI's Uniform Crime Reports (UCR) because it likely captures information on crimes that individuals experienced but never reported to the police [B-soc3e-p0201-000].",
+    "evidence_quote": "The NCVS reports a higher rate of crime than the UCR, likely picking up information on crimes that were experienced but never reported to the police."
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 1,
+  "llm_calls": 2,
+  "tokens": {
+   "prompt": 2552,
+   "output": 203,
+   "thoughts": 435,
+   "total": 3190
+  },
+  "latency_s": 17.882,
+  "context_ids": [
+   "B-soc3e-p0200-002",
+   "B-soc3e-p0200-001",
+   "B-soc3e-p0201-000",
+   "B-soc3e-p0208-001",
+   "B-soc3e-p0199-005"
+  ],
+  "context_chars": 3462,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0200-002",
+    "page": 200,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.03252247488101534,
+    "rank": 1,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nThe U.S. Bureau of Justice Statistics publishes a separate self-report study known as the National Crime Victimization Survey (NCVS). A self-report study is a collection of data gathered using voluntary response methods, such as questionnaires or telephone interviews. Self-report data are gathered each year, asking approximately 160,000 people in the United States about the frequency and types of crime they’ve"
+   },
+   {
+    "id": "B-soc3e-p0200-001",
+    "page": 200,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.032018442622950824,
+    "rank": 2,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nThe FBI gathers data from approximately 17,000 law enforcement agencies, and the Uniform Crime Reports (UCR) is the annual publication of this data (FBI 2021). The UCR has comprehensive information from police reports but fails to account for the many crimes that go unreported, often due to victims’ fear, shame, or distrust of the police. The quality of this data is also inconsistent because of differences in approaches to gathering victim data; important details are not always asked for or reported (Cantor and Lynch 2000). As of 2021, states will be required to provide data for the National Incident-Based Reporting System (NIBRS), which captures more detailed information on each crime, including time of day, location, and other contexts. NIBRS is intended to provide more data-informed discussion to better improve crime prevention and policing (FBI 2021)."
+   },
+   {
+    "id": "B-soc3e-p0201-000",
+    "page": 201,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.03200204813108039,
+    "rank": 3,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nexperienced in their daily lives (BJS 2019). The NCVS reports a higher rate of crime than the UCR, likely picking up information on crimes that were experienced but never reported to the police. Age, race, gender, location, and income-level demographics are also analyzed.\nThe NCVS survey format allows people to more openly discuss their experiences and also provides a moredetailed examination of crimes, which may include information about consequences, relationship between victim and criminal, and substance abuse involved. One disadvantage is that the NCVS misses some groups of people, such as those who don’t have telephones and those who move frequently. The quality of information may also be reduced by inaccurate victim recall of the crime (Cantor and Lynch 2000).\nPublic Perception of Crime"
+   },
+   {
+    "id": "B-soc3e-p0208-001",
+    "page": 208,
+    "source": "soc3e",
+    "section": "Section Quiz",
+    "chapter": 7,
+    "score": 0.03149801587301587,
+    "rank": 4,
+    "origin": "search",
+    "text": "Section Quiz\n15. What is a disadvantage of the National Crime Victimization Survey (NCVS)? a. The NCVS doesn’t include demographic data, such as age or gender. b. The NCVS may be unable to reach important groups, such as those without phones. c. The NCVS doesn’t address the relationship between the criminal and the victim. d. The NCVS only includes information collected by police officers."
+   },
+   {
+    "id": "B-soc3e-p0199-005",
+    "page": 199,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.030536130536130537,
+    "rank": 5,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nThe severity and impact of hate crimes is significant, but the different crime reporting methods mentioned earlier can obscure the issue. According to the NVCS, an average of approximately 205,000 Americans fall victim to hate crimes each year (Bureau of Justice Statistics 2021). But the FBI reports a much lower number; for example, the 2019 report indicates 7,314 criminal incidents and 8,559 related offenses as being motivated by bias (FBI 2020). The discrepancy is due to many factors: very few people actually report hate crimes for fear of retribution or based on the difficulties of enduring a criminal proceeding; also, law enforcement agencies must find clear proof that a particular crime was motivated by bias rather than other factors. (For example, an assailant who robs someone and uses a slur while committing that crime may not be deemed to be bias-motivated.) But both\nBIG PICTURE"
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t09",
+  "question": "What happened to the participants in Zimbardo's Stanford prison experiment?",
+  "status": "abstain",
+  "reason": "model_abstain",
+  "answer": "There is not enough evidence in the provided text to answer what happened to the participants in Zimbardo's Stanford prison experiment.",
+  "citations": [],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.215,
+    "retries": 0,
+    "usage": {
+     "prompt": 708,
+     "output": 42,
+     "thoughts": 85,
+     "total": 835
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Zimbardo Stanford prison experiment participants",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": "Searching for Zimbardo Stanford prison experiment to see what happened to participants.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0170-000",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 170
+     },
+     {
+      "id": "B-soc3e-p0170-003",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 170
+     },
+     {
+      "id": "B-soc3e-p0193-002",
+      "score": 0.0286,
+      "rank": 3,
+      "page": 193
+     },
+     {
+      "id": "B-soc3e-p0207-001",
+      "score": 0.0257,
+      "rank": 4,
+      "page": 207
+     },
+     {
+      "id": "B-soc3e-p0194-003",
+      "score": 0.0159,
+      "rank": 5,
+      "page": 194
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0170-000",
+     "B-soc3e-p0170-003",
+     "B-soc3e-p0193-002",
+     "B-soc3e-p0207-001",
+     "B-soc3e-p0194-003"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.037,
+    "context_chars_used": 4721
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 1.591,
+    "retries": 0,
+    "usage": {
+     "prompt": 2039,
+     "output": 35,
+     "thoughts": 20,
+     "total": 2094
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Zimbardo Stanford prison",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": "Search for Zimbardo or Stanford prison experiment.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0203-002",
+      "score": 0.0325,
+      "rank": 1,
+      "page": 203
+     },
+     {
+      "id": "B-soc3e-p0203-003",
+      "score": 0.0318,
+      "rank": 2,
+      "page": 203
+     },
+     {
+      "id": "B-soc3e-p0193-002",
+      "score": 0.0318,
+      "rank": 3,
+      "page": 193
+     },
+     {
+      "id": "B-soc3e-p0193-003",
+      "score": 0.0292,
+      "rank": 4,
+      "page": 193
+     },
+     {
+      "id": "B-soc3e-p0203-000",
+      "score": 0.029,
+      "rank": 5,
+      "page": 203
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0203-002",
+     "B-soc3e-p0203-003",
+     "B-soc3e-p0193-003"
+    ],
+    "duplicates": [
+     "B-soc3e-p0193-002"
+    ],
+    "budget_dropped": [
+     "B-soc3e-p0203-000"
+    ],
+    "latency_s": 0.027,
+    "context_chars_used": 7601
+   },
+   {
+    "event": "model_call",
+    "n": 3,
+    "latency_s": 1.395,
+    "retries": 0,
+    "usage": {
+     "prompt": 2816,
+     "output": 33,
+     "thoughts": 22,
+     "total": 2871
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Zimbardo",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": "Searching specifically for Zimbardo or prison experiment.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0187-002",
+      "score": 0.0164,
+      "rank": 1,
+      "page": 187
+     },
+     {
+      "id": "B-soc3e-p0176-000",
+      "score": 0.0161,
+      "rank": 2,
+      "page": 176
+     },
+     {
+      "id": "B-soc3e-p0132-003",
+      "score": 0.0159,
+      "rank": 3,
+      "page": 132
+     },
+     {
+      "id": "B-soc3e-p0167-002",
+      "score": 0.0156,
+      "rank": 4,
+      "page": 167
+     },
+     {
+      "id": "B-soc3e-p0187-003",
+      "score": 0.0154,
+      "rank": 5,
+      "page": 187
+     }
+    ],
+    "context_added": [],
+    "duplicates": [],
+    "budget_dropped": [
+     "B-soc3e-p0187-002",
+     "B-soc3e-p0176-000",
+     "B-soc3e-p0132-003",
+     "B-soc3e-p0167-002",
+     "B-soc3e-p0187-003"
+    ],
+    "latency_s": 0.034,
+    "context_chars_used": 7601
+   },
+   {
+    "event": "model_call",
+    "n": 4,
+    "latency_s": 2.164,
+    "retries": 0,
+    "usage": {
+     "prompt": 2980,
+     "output": 56,
+     "thoughts": 13,
+     "total": 3049
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": true,
+    "citations": [],
+    "answer": "There is not enough evidence in the provided text to answer what happened to the participants in Zimbardo's Stanford prison experiment.",
+    "evidence_quote": ""
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstain"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 3,
+  "llm_calls": 4,
+  "tokens": {
+   "prompt": 8543,
+   "output": 166,
+   "thoughts": 140,
+   "total": 8849
+  },
+  "latency_s": 32.365,
+  "context_ids": [
+   "B-soc3e-p0170-000",
+   "B-soc3e-p0170-003",
+   "B-soc3e-p0193-002",
+   "B-soc3e-p0207-001",
+   "B-soc3e-p0194-003",
+   "B-soc3e-p0203-002",
+   "B-soc3e-p0203-003",
+   "B-soc3e-p0193-003"
+  ],
+  "context_chars": 7601,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0170-000",
+    "page": 170,
+    "source": "soc3e",
+    "section": "6.2 Group Size and Structure",
+    "chapter": 6,
+    "score": 0.03278688524590164,
+    "rank": 1,
+    "origin": "search",
+    "text": "6.2 Group Size and Structure\nenjoy being noticed? Do you consciously prefer to conform to group norms so as not to be singled out? Are there people in your class who immediately come to mind when you think about those who don’t want to conform?\nPsychologist Solomon Asch (1907–1996) conducted experiments that illustrated how great the pressure to conform is, specifically within a small group (1956). Read about his work in the Sociological Research feature and consider what you would do in Asch’s experiment. Would you speak up? What would help you speak up and what would discourage it?\nConforming to Expectations In 1951, psychologist Solomon Asch sat a small group of about eight people around a table. Only one of the people sitting there was the true subject; the rest were associates of the experimenter. However, the subject was led to believe that the others were all, like him, people brought in for an experiment in visual judgments. The group was shown two cards, the first card with a single vertical line, and the second card with three vertical lines differing in length. The experimenter polled the group and asked each participant one at a time which line on the"
+   },
+   {
+    "id": "B-soc3e-p0170-003",
+    "page": 170,
+    "source": "soc3e",
+    "section": "6.2 Group Size and Structure",
+    "chapter": 6,
+    "score": 0.03225806451612903,
+    "rank": 2,
+    "origin": "search",
+    "text": "6.2 Group Size and Structure\nAsch concluded that there are two main causes for conformity: people want to be liked by the group or they believe the group is better informed than they are. He found his study results disturbing. To him, they revealed that intelligent, well-educated people would, with very little coaxing, go along with an untruth. He believed this result highlighted real problems with the education system and values in our society (Asch 1956).\nStanley Milgram, a Yale psychologist, had similar results in his experiment that is now known simply as the Milgram Experiment. In 1962, Milgram found that research subjects were overwhelmingly willing to perform acts that directly conflicted with their consciences when directed by a person of authority. In the experiment, subjects were willing to administer painful, even supposedly deadly, shocks to others who answered questions incorrectly.\nTo learn more about similar research, visit http://www.prisonexp.org/\nSOCIOLOGICAL RESEARCH"
+   },
+   {
+    "id": "B-soc3e-p0193-002",
+    "page": 193,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.02862400327131466,
+    "rank": 3,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nThis imbalance based on class power is also found within U.S. criminal law. In the 1980s, the use of crack cocaine (a less expensive but powerful drug) quickly became an epidemic that swept the country’s poorest urban communities. Its pricier counterpart, cocaine, was associated with upscale users and was a drug of choice for the wealthy. The legal implications of being caught by authorities with crack versus cocaine were starkly different. In 1986, federal law mandated that being caught in possession of 50 grams of crack was punishable by a ten-year prison sentence. An equivalent prison sentence for cocaine possession, however, required possession of 5,000 grams. In other words, the sentencing disparity was 1 to 100 (New York Times Editorial Staff 2011). This inequality in the severity of punishment for crack versus cocaine paralleled the unequal social class of respective users. A conflict theorist would note that those in society who hold the power are also the ones who make the laws concerning crime."
+   },
+   {
+    "id": "B-soc3e-p0207-001",
+    "page": 207,
+    "source": "soc3e",
+    "section": "Section Quiz",
+    "chapter": 7,
+    "score": 0.025657894736842105,
+    "rank": 4,
+    "origin": "search",
+    "text": "Section Quiz\n8. According to social disorganization theory, crime is most likely to occur where? a. A community where neighbors don’t know each other very well b. A neighborhood with mostly elderly citizens c. A city with a large minority population d. A college campus with students who are very competitive\n9. According to the concept of the power elite, why would a celebrity commit a crime? a. Because his parents committed similar crimes b. Because his fame protects him from retribution c. Because his fame disconnects him from society d. Because he is challenging socially accepted norms\n10. A convicted sexual offender is released on parole and arrested two weeks later for repeated sexual crimes. How would labeling theory explain this?\na. The offender has been labeled deviant by society and has accepted a new master status. b. The offender has returned to their old neighborhood and so reestablished their former habits. c. The offender has lost the social bonds they made in prison and feels disconnected from society. d. The offender is poor and responding to the different cultural values that exist in their community."
+   },
+   {
+    "id": "B-soc3e-p0194-003",
+    "page": 194,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.015873015873015872,
+    "rank": 5,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nHow do people deal with the labels they are given? This was the subject of a study done by Sykes and Matza (1957). They studied teenage boys who had been labeled as juvenile delinquents to see how they either embraced or denied these labels. Have you ever used any of these techniques?"
+   },
+   {
+    "id": "B-soc3e-p0203-002",
+    "page": 203,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.03252247488101534,
+    "rank": 1,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nPrison is different from jail. A jail provides temporary confinement, usually while an individual awaits trial or parole. Prisons are facilities built for individuals serving sentences of more than a year. Whereas jails are small and local, prisons are large and run by either the state or the federal government. While incarcerated, people have differing levels of freedom and opportunity for engagement. Some inmates have options to take classes, play organized sports, and otherwise enrich themselves, usually with the goal of improving their lives upon release. Other incarcerated people have very limited opportunities. Usually these distinctions are based on the severity of their crimes and their behavior once imprisoned, but available resources and funding can be a significant factor."
+   },
+   {
+    "id": "B-soc3e-p0203-003",
+    "page": 203,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.03177805800756621,
+    "rank": 2,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nParole refers to a temporary release from prison or jail that requires supervision and the consent of officials. Parole is different from probation, which is supervised time used as an alternative to prison. Probation and parole can both follow a period of incarceration in prison, especially if the prison sentence is shortened. Most people in these situations are supervised by correctional officers or other appropriate professionals, including mental health professionals; they may attend regular meetings or counseling sessions and may be required to report on their activities and travel. People on probation or parole often have strict guidelines; not only will they be returned to jail upon committing a crime, but they may also be prohibited from associating with known criminals or suspects. These strategies are designed to prevent people on parole or probation from returning to criminal engagements, and to increase the likelihood that they will remain positive members of the community through interactions with family, productive employment, and mental health treatment if needed.\nPolicing and Race"
+   },
+   {
+    "id": "B-soc3e-p0193-003",
+    "page": 193,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.029211087420042643,
+    "rank": 4,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nIn doing so, they make laws that will benefit them, while the powerless classes who lack the resources to make such decisions suffer the consequences. Throughout the 1980s and early 1990s, states passed numerous laws increasing penalties, especially for repeat offenders. The U.S. government passed an even more significant law, the Violent Crime Control and Law Enforcement Act of 1994 (known as the 1994 Crime Bill), which further increased penalties, funded prisons, and incentivized law enforcement agencies to further pursue drug offenders. One outcome of these policies was the mass incarceration of Black and Hispanic people, which led to a cycle of poverty and reduced social mobility. The crack-cocaine punishment disparity remained until 2010, when President Obama signed the Fair Sentencing Act, which decreased the disparity to 1 to 18 (The Sentencing Project 2010)."
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t10",
+  "question": "How many states still use the death penalty according to the textbook?",
+  "status": "abstain",
+  "reason": "model_abstain",
+  "answer": "There is not enough evidence in the provided chunks to state how many states still use the death penalty.",
+  "citations": [],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.266,
+    "retries": 0,
+    "usage": {
+     "prompt": 706,
+     "output": 61,
+     "thoughts": 46,
+     "total": 813
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "death penalty states number",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": {
+     "chapter": 7
+    },
+    "filter_reason": "Death penalty is a topic of punishment and criminal justice, which belongs to Chapter 7 (Deviance, Crime, and Social Control).",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0202-001",
+      "score": 0.0325,
+      "rank": 1,
+      "page": 202
+     },
+     {
+      "id": "B-soc3e-p0203-001",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 203
+     },
+     {
+      "id": "B-soc3e-p0203-000",
+      "score": 0.0315,
+      "rank": 3,
+      "page": 203
+     },
+     {
+      "id": "B-soc3e-p0193-003",
+      "score": 0.0306,
+      "rank": 4,
+      "page": 193
+     },
+     {
+      "id": "B-soc3e-p0199-005",
+      "score": 0.0299,
+      "rank": 5,
+      "page": 199
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0202-001",
+     "B-soc3e-p0203-001",
+     "B-soc3e-p0203-000",
+     "B-soc3e-p0193-003",
+     "B-soc3e-p0199-005"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.029,
+    "context_chars_used": 4135
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 1.409,
+    "retries": 0,
+    "usage": {
+     "prompt": 1959,
+     "output": 48,
+     "thoughts": 15,
+     "total": 2022
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "death penalty capital punishment states",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": {
+     "chapter": 7
+    },
+    "filter_reason": "Looking for information specifically about the death penalty in Chapter 7.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0202-001",
+      "score": 0.0325,
+      "rank": 1,
+      "page": 202
+     },
+     {
+      "id": "B-soc3e-p0193-003",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 193
+     },
+     {
+      "id": "B-soc3e-p0195-003",
+      "score": 0.0318,
+      "rank": 3,
+      "page": 195
+     },
+     {
+      "id": "B-soc3e-p0204-001",
+      "score": 0.0308,
+      "rank": 4,
+      "page": 204
+     },
+     {
+      "id": "B-soc3e-p0199-000",
+      "score": 0.0286,
+      "rank": 5,
+      "page": 199
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0195-003",
+     "B-soc3e-p0204-001",
+     "B-soc3e-p0199-000"
+    ],
+    "duplicates": [
+     "B-soc3e-p0202-001",
+     "B-soc3e-p0193-003"
+    ],
+    "budget_dropped": [],
+    "latency_s": 0.032,
+    "context_chars_used": 6388
+   },
+   {
+    "event": "model_call",
+    "n": 3,
+    "latency_s": 2.356,
+    "retries": 0,
+    "usage": {
+     "prompt": 2645,
+     "output": 44,
+     "thoughts": 23,
+     "total": 2712
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "death penalty",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": "Searching the entire book for death penalty to see if it's mentioned anywhere.",
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0202-001",
+      "score": 0.0325,
+      "rank": 1,
+      "page": 202
+     },
+     {
+      "id": "B-soc3e-p0204-001",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 204
+     },
+     {
+      "id": "B-soc3e-p0193-003",
+      "score": 0.032,
+      "rank": 3,
+      "page": 193
+     },
+     {
+      "id": "B-soc3e-p0203-004",
+      "score": 0.0276,
+      "rank": 4,
+      "page": 203
+     },
+     {
+      "id": "B-soc3e-p0133-004",
+      "score": 0.0156,
+      "rank": 5,
+      "page": 133
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0203-004"
+    ],
+    "duplicates": [
+     "B-soc3e-p0202-001",
+     "B-soc3e-p0204-001",
+     "B-soc3e-p0193-003"
+    ],
+    "budget_dropped": [
+     "B-soc3e-p0133-004"
+    ],
+    "latency_s": 0.02,
+    "context_chars_used": 7419
+   },
+   {
+    "event": "model_call",
+    "n": 4,
+    "latency_s": 2.28,
+    "retries": 0,
+    "usage": {
+     "prompt": 3039,
+     "output": 48,
+     "thoughts": 14,
+     "total": 3101
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": true,
+    "citations": [],
+    "answer": "There is not enough evidence in the provided chunks to state how many states still use the death penalty.",
+    "evidence_quote": ""
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstain"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 3,
+  "llm_calls": 4,
+  "tokens": {
+   "prompt": 8349,
+   "output": 201,
+   "thoughts": 98,
+   "total": 8648
+  },
+  "latency_s": 33.31,
+  "context_ids": [
+   "B-soc3e-p0202-001",
+   "B-soc3e-p0203-001",
+   "B-soc3e-p0203-000",
+   "B-soc3e-p0193-003",
+   "B-soc3e-p0199-005",
+   "B-soc3e-p0195-003",
+   "B-soc3e-p0204-001",
+   "B-soc3e-p0199-000",
+   "B-soc3e-p0203-004"
+  ],
+  "context_chars": 7419,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0202-001",
+    "page": 202,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.03252247488101534,
+    "rank": 1,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nCriminal cases are heard by trial courts with general jurisdictions. Usually, a judge and jury are both present. It is the jury’s responsibility to determine guilt and the judge’s responsibility to determine the penalty, though in some states the jury may also decide the penalty. Unless a defendant is found “not guilty,” any member of the prosecution or defense (whichever is the losing side) can appeal the case to a higher court. In some states, the case then goes to a special appellate court; in others it goes to the highest state court, often known as the state supreme court.\nFIGURE 7.11 This county courthouse in Kansas (left) is a typical setting for a state trial court. Compare this to the"
+   },
+   {
+    "id": "B-soc3e-p0203-001",
+    "page": 203,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.032266458495966696,
+    "rank": 2,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nThe U.S. incarceration rate has grown considerably in the last hundred years, but has begun to decline in the past decade. The total correctional population (including parolees and those on probation), peaked in 2007 at 7.3 million, resulting in approximately 1 in 32 people being under some sort of correctional supervision. With the 2018 correction system number close to 6.4 million people, that ratio goes to 1 in every 40 people (BJS 2020). The declines are seen as a positive, but the United States holds the largest number of prisoners of any nation in the world."
+   },
+   {
+    "id": "B-soc3e-p0203-000",
+    "page": 203,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.03149801587301587,
+    "rank": 3,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\ncourtroom of the Michigan Supreme Court (right). (Credit: (a) Ammodramus/Wikimedia Commons; Photo (b) Steve & Christine/Wikimedia Commons)\nCorrections\nThe corrections system is charged with supervising individuals who have been arrested, convicted, and sentenced for a criminal offense, plus people detained while awaiting hearings, trials, or other procedures. At the end of 2018, approximately 2.3 million people were incarcerated in the United States (BJS 2020); these include people who are in state and federal prisons as well as those in local jails or related facilities, as explained below. Since many convicted people are placed on probation or parole, have their sentences deferred or otherwise altered, or are released under other circumstances, the total number of people within the corrections system is much higher. In 2018, the total number of people either incarcerated, detained, paroled, or on probation was 6,410,000 (BJS 2020)."
+   },
+   {
+    "id": "B-soc3e-p0193-003",
+    "page": 193,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.030621785881252923,
+    "rank": 4,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nIn doing so, they make laws that will benefit them, while the powerless classes who lack the resources to make such decisions suffer the consequences. Throughout the 1980s and early 1990s, states passed numerous laws increasing penalties, especially for repeat offenders. The U.S. government passed an even more significant law, the Violent Crime Control and Law Enforcement Act of 1994 (known as the 1994 Crime Bill), which further increased penalties, funded prisons, and incentivized law enforcement agencies to further pursue drug offenders. One outcome of these policies was the mass incarceration of Black and Hispanic people, which led to a cycle of poverty and reduced social mobility. The crack-cocaine punishment disparity remained until 2010, when President Obama signed the Fair Sentencing Act, which decreased the disparity to 1 to 18 (The Sentencing Project 2010)."
+   },
+   {
+    "id": "B-soc3e-p0199-005",
+    "page": 199,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.029910714285714284,
+    "rank": 5,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nThe severity and impact of hate crimes is significant, but the different crime reporting methods mentioned earlier can obscure the issue. According to the NVCS, an average of approximately 205,000 Americans fall victim to hate crimes each year (Bureau of Justice Statistics 2021). But the FBI reports a much lower number; for example, the 2019 report indicates 7,314 criminal incidents and 8,559 related offenses as being motivated by bias (FBI 2020). The discrepancy is due to many factors: very few people actually report hate crimes for fear of retribution or based on the difficulties of enduring a criminal proceeding; also, law enforcement agencies must find clear proof that a particular crime was motivated by bias rather than other factors. (For example, an assailant who robs someone and uses a slur while committing that crime may not be deemed to be bias-motivated.) But both\nBIG PICTURE"
+   },
+   {
+    "id": "B-soc3e-p0195-003",
+    "page": 195,
+    "source": "soc3e",
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime",
+    "chapter": 7,
+    "score": 0.031754032258064516,
+    "rank": 3,
+    "origin": "search",
+    "text": "7.2 Theoretical Perspectives on Deviance and Crime\nUnder the Fourteenth Amendment, states are allowed to deny voting privileges to individuals who have participated in “rebellion or other crime” (Krajick 2004). Although there are no federally mandated laws on the matter, most states practice at least one form of felony disenfranchisement.\nIs it fair to prevent citizens from participating in such an important process? Proponents of disfranchisement laws argue that felons have a debt to pay to society. Being stripped of their right to vote is part of the punishment for criminal deeds. Such proponents point out that voting isn’t the only instance in which ex-felons are denied rights; state laws also ban released criminals from holding public office, obtaining professional licenses, and sometimes even inheriting property (Lott and Jones 2008).\nSOCIAL POLICY AND DEBATE"
+   },
+   {
+    "id": "B-soc3e-p0204-001",
+    "page": 204,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.030798389007344232,
+    "rank": 4,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nNo issue related to race and policing is of more concern than the shooting of unarmed Black people by police. The lack of punishment of police officers for committing these acts perpetuates the issue of unequal justice. Eric Garner was killed by an officer using a prohibited chokehold after Garner had allegedly committed a misdemeanor. Breonna Taylor was killed by police who violently infiltrated the wrong home. None of the officers involved in those deaths were prosecuted, though several were fired. The officer who killed George Floyd was immediately charged with the crime, and was eventually convicted, but some believe that to be the case due to the clear and horrific video of the event (Abdollah 2021)."
+   },
+   {
+    "id": "B-soc3e-p0199-000",
+    "page": 199,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.02857142857142857,
+    "rank": 5,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nher seat to a White man—were inconsistent with social equality.\nAs you have learned, all societies have informal and formal ways of maintaining social control. Within these systems of norms, societies have legal codes that maintain formal social control through laws, which are rules adopted and enforced by a political authority. Those who violate these rules incur negative formal sanctions. Normally, punishments are relative to the degree of the crime and the importance to society of the value underlying the law. As we will see, however, there are other factors that influence criminal sentencing.\nTypes of Crimes"
+   },
+   {
+    "id": "B-soc3e-p0203-004",
+    "page": 203,
+    "source": "soc3e",
+    "section": "7.3 Crime and the Law",
+    "chapter": 7,
+    "score": 0.027583600982429624,
+    "rank": 4,
+    "origin": "search",
+    "text": "7.3 Crime and the Law\nThis chapter described just a few of the sociological theories regarding deviance and crime; there are many more, as well as many approaches for preventing crime and enforcing laws. Citizens, law enforcement, and elected officials weigh a wide array of contexts and personal experiences when considering the best way to address crime. In at least some cases, decision makers are motivated by a desire to protect the status quo or improve their political or financial position.\nAs discussed earlier, during the 1980s, crack cocaine was exploding in usage among lower income, Black, and Hispanic people. White middle class and upper economic class Americans became terrified of the potential for their family and children to be involved with drugs and drug-related crime. State governments passed increasingly harsh laws, resulting in stiffer penalties and the removal of judges’ discretion in drug case sentencing. Among the most well known of these were “three strikes laws,” which mandated long sentences for"
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ },
+ {
+  "query_id": "t11",
+  "question": "How many children attend the Egalia preschool in Sweden?",
+  "status": "abstain",
+  "reason": "model_abstain",
+  "answer": "There is not enough evidence in the provided text to determine how many children attend the Egalia preschool in Sweden.",
+  "citations": [],
+  "events": [
+   {
+    "event": "model_call",
+    "n": 1,
+    "latency_s": 1.789,
+    "retries": 0,
+    "usage": {
+     "prompt": 704,
+     "output": 20,
+     "thoughts": 34,
+     "total": 758
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Egalia preschool Sweden children number",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": null,
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0136-002",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 136
+     },
+     {
+      "id": "B-soc3e-p0140-003",
+      "score": 0.0323,
+      "rank": 2,
+      "page": 140
+     },
+     {
+      "id": "B-soc3e-p0146-001",
+      "score": 0.0315,
+      "rank": 3,
+      "page": 146
+     },
+     {
+      "id": "B-soc3e-p0152-000",
+      "score": 0.0278,
+      "rank": 4,
+      "page": 152
+     },
+     {
+      "id": "B-soc3e-p0146-002",
+      "score": 0.0277,
+      "rank": 5,
+      "page": 146
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0136-002",
+     "B-soc3e-p0140-003",
+     "B-soc3e-p0146-001",
+     "B-soc3e-p0152-000",
+     "B-soc3e-p0146-002"
+    ],
+    "duplicates": [],
+    "budget_dropped": [],
+    "latency_s": 0.033,
+    "context_chars_used": 4733
+   },
+   {
+    "event": "model_call",
+    "n": 2,
+    "latency_s": 2.973,
+    "retries": 0,
+    "usage": {
+     "prompt": 2000,
+     "output": 20,
+     "thoughts": 145,
+     "total": 2165
+    },
+    "function_calls": [
+     "search"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Egalia preschool children number attendance",
+    "top_k": 5,
+    "method": "hybrid",
+    "filter": null,
+    "filter_reason": null,
+    "ok": true,
+    "error": null,
+    "results": [
+     {
+      "id": "B-soc3e-p0136-002",
+      "score": 0.0328,
+      "rank": 1,
+      "page": 136
+     },
+     {
+      "id": "B-soc3e-p0146-000",
+      "score": 0.032,
+      "rank": 2,
+      "page": 146
+     },
+     {
+      "id": "B-soc3e-p0146-001",
+      "score": 0.031,
+      "rank": 3,
+      "page": 146
+     },
+     {
+      "id": "B-soc3e-p0152-000",
+      "score": 0.029,
+      "rank": 4,
+      "page": 152
+     },
+     {
+      "id": "B-soc3e-p0138-003",
+      "score": 0.027,
+      "rank": 5,
+      "page": 138
+     }
+    ],
+    "context_added": [
+     "B-soc3e-p0146-000",
+     "B-soc3e-p0138-003"
+    ],
+    "duplicates": [
+     "B-soc3e-p0136-002",
+     "B-soc3e-p0146-001",
+     "B-soc3e-p0152-000"
+    ],
+    "budget_dropped": [],
+    "latency_s": 0.026,
+    "context_chars_used": 5572
+   },
+   {
+    "event": "model_call",
+    "n": 3,
+    "latency_s": 1.843,
+    "retries": 0,
+    "usage": {
+     "prompt": 2493,
+     "output": 50,
+     "thoughts": 50,
+     "total": 2593
+    },
+    "function_calls": [
+     "finish"
+    ],
+    "text": "",
+    "finish_reason": "FinishReason.STOP"
+   },
+   {
+    "event": "finish_call",
+    "abstain": true,
+    "citations": [],
+    "answer": "There is not enough evidence in the provided text to determine how many children attend the Egalia preschool in Sweden.",
+    "evidence_quote": ""
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstain"
+   }
+  ],
+  "errors": [],
+  "tool_calls": 2,
+  "llm_calls": 3,
+  "tokens": {
+   "prompt": 5197,
+   "output": 90,
+   "thoughts": 229,
+   "total": 5516
+  },
+  "latency_s": 26.104,
+  "context_ids": [
+   "B-soc3e-p0136-002",
+   "B-soc3e-p0140-003",
+   "B-soc3e-p0146-001",
+   "B-soc3e-p0152-000",
+   "B-soc3e-p0146-002",
+   "B-soc3e-p0146-000",
+   "B-soc3e-p0138-003"
+  ],
+  "context_chars": 5572,
+  "final_context": [
+   {
+    "id": "B-soc3e-p0136-002",
+    "page": 136,
+    "source": "soc3e",
+    "section": "5.1 Theories of Self-Development",
+    "chapter": 5,
+    "score": 0.03278688524590164,
+    "rank": 1,
+    "origin": "search",
+    "text": "5.1 Theories of Self-Development\nOne solution to this type of gender socialization is being experimented with at the Egalia preschool in Sweden, where children develop in a genderless environment. All the children at Egalia are referred to with neutral terms like “friend” instead of “he” or “she.” Play areas and toys are consciously set up to eliminate any reinforcement of gender expectations (Haney 2011). Egalia strives to eliminate all societal gender norms from these children’s preschool world.\nExtreme? Perhaps. So what is the middle ground? Bloom suggests that we start with simple steps: when introduced to a young girl, ask about her favorite book or what she likes. In short, engage with her mind ... not her outward appearance (Bloom 2011)."
+   },
+   {
+    "id": "B-soc3e-p0140-003",
+    "page": 140,
+    "source": "soc3e",
+    "section": "5.3 Agents of Socialization",
+    "chapter": 5,
+    "score": 0.03225806451612903,
+    "rank": 2,
+    "origin": "search",
+    "text": "5.3 Agents of Socialization\nIn Sweden, for instance, stay-at-home fathers are an accepted part of the social landscape. A government policy provides subsidized time off work—480 days for families with newborns—with the option of the paid leave being shared between mothers and fathers. As one stay-at-home dad says, being home to take care of his baby son “is a real fatherly thing to do. I think that’s very masculine” (Associated Press 2011). Close to 90 percent of Swedish fathers use their paternity leave (about 340,000 dads); on average they take seven weeks per birth (The Economist, 2014). How do U.S. policies—and our society’s expected gender roles—compare? How will Swedish children raised this way be socialized to parental gender norms? How might that be different from parental gender norms in the United States?"
+   },
+   {
+    "id": "B-soc3e-p0146-001",
+    "page": 146,
+    "source": "soc3e",
+    "section": "5.4 Socialization Across the Life Course",
+    "chapter": 5,
+    "score": 0.03149801587301587,
+    "rank": 3,
+    "origin": "search",
+    "text": "5.4 Socialization Across the Life Course\nOther countries, especially high-income nations in Western Europe, have similar trends in college education, but fewer students start immediately. Gap years, overseas experiences, or mandatory wait times all lead students to a wide array of pre-college destinations. In Denmark, for example numbers of students who take a \"year out\" are so high that the government has sought to give students cash bonuses for attending immediately (Anderson 2009). For several decades, only about 25 percent of Denmark's high school graduates enrolled in college right away, and that number continued to drop in the 2010s, with a record low of only 15 percent in 2018 (Ritzau 2019). Compare that to the U.S. numbers mentioned above, where over two thirds of the students enroll in college immediately. And note that in Denmark, college is almost universally free."
+   },
+   {
+    "id": "B-soc3e-p0152-000",
+    "page": 152,
+    "source": "soc3e",
+    "section": "Section Quiz",
+    "chapter": 5,
+    "score": 0.027783137179239824,
+    "rank": 4,
+    "origin": "search",
+    "text": "Section Quiz\n8. From a sociological perspective, which factor does not greatly influence a person’s socialization? a. Gender b. Class c. Blood type d. Race\n9. Chris Langan’s story illustrates that: a. children raised in one-parent households tend to have higher IQs. b. intelligence is more important than socialization. c. socialization can be more important than intelligence. d. neither socialization nor intelligence affects college admissions.\n5.3 Agents of Socialization\n10. Why are wealthy parents more likely than poor parents to socialize their children toward creativity and problem solving?\na. Wealthy parents are socializing their children toward the skills of white-collar employment.\nb. Wealthy parents are not concerned about their children rebelling against their rules. c. Wealthy parents never engage in repetitive tasks. d. Wealthy parents are more concerned with money than with a good education.\n11. How do schools prepare children to one day enter the workforce? a. With a standardized curriculum b. Through the hidden curriculum c. By socializing them in teamwork d. All of the above"
+   },
+   {
+    "id": "B-soc3e-p0146-002",
+    "page": 146,
+    "source": "soc3e",
+    "section": "5.4 Socialization Across the Life Course",
+    "chapter": 5,
+    "score": 0.027745885954841176,
+    "rank": 5,
+    "origin": "search",
+    "text": "5.4 Socialization Across the Life Course\nIn the United States, this life transition point is socialized quite differently. Taking a year off much less common than some other countries, but has certainly picked up in recent years. In most cases, U.S. youth are encouraged to select a few target colleges or potential workforce options by their late teens, and to get started on those pathways soon after high school. As mentioned above, many U.S. students do not attend college, but most of those students are in the workforce (including the military).\nOther nations have entirely different approaches based on available educational institutions, financial circumstances, and family needs. In some nations, students often go to college soon after high school, but do so in other countries (including the U.S.). Dozens of nations require military conscription—military service—for men, and a few (such as Sweden, Israel, Norway, Eritrea, and Venezuela) for women as well.\nHow might your life be different if you lived in one of these other countries? Can you think of similar social norms—related to life age-transition points—that vary from country to country?"
+   },
+   {
+    "id": "B-soc3e-p0146-000",
+    "page": 146,
+    "source": "soc3e",
+    "section": "5.4 Socialization Across the Life Course",
+    "chapter": 5,
+    "score": 0.03200204813108039,
+    "rank": 2,
+    "origin": "search",
+    "text": "5.4 Socialization Across the Life Course\nLife After High School Around the World In the United States, recent high school graduates have increasingly been focusing on college attendance. In recent years, about two-thirds of high school graduates are enrolled in college between their teen years and age twenty-four. About one-third of the same population primarly participates in the work force, meaning that they are employed or are looking for employment (Bureau of Labor Statistics 2020). Of those who attend college, most (about 69 percent) are considered immediate enrollers, meaning that they begin college in the first fall academic term immediately after their high school graduation (NCES 2020)."
+   },
+   {
+    "id": "B-soc3e-p0138-003",
+    "page": 138,
+    "source": "soc3e",
+    "section": "5.2 Why Socialization Matters",
+    "chapter": 5,
+    "score": 0.027046783625730993,
+    "rank": 5,
+    "origin": "search",
+    "text": "5.2 Why Socialization Matters\nTheir children were not being socialized to comfortably confront the system and speak up (Gladwell 2008)."
+   }
+  ],
+  "config_name": "base",
+  "model": "gemini-3.5-flash-lite"
+ }
+]

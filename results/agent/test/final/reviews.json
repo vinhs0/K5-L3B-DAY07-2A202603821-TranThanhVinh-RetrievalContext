@@ -1,0 +1,112 @@
+[
+ {
+  "query_id": "t01",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "eight stages, birth to death; matches gold; citations: cited chunk p0133-004 states 'eight stages of development, beginning with birth and ending with death'",
+  "context_grade": 2,
+  "context_reason": "gold evidence chunk(s) in final context with page/section source; sufficient to answer"
+ },
+ {
+  "query_id": "t02",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "social causes (religious differences) rather than psychological; matches gold; citations: p0134-002 states exactly this",
+  "context_grade": 2,
+  "context_reason": "gold evidence chunk(s) in final context with page/section source; sufficient to answer"
+ },
+ {
+  "query_id": "t03",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Schein and Bernstein named; for base also adds 1968 adoption + 2003 reunion, all in chunks; matches gold; citations: 001 supports twin study/1968 separation; 002 names Schein and Bernstein, reunited 2003 age 35",
+  "context_grade": 2,
+  "context_reason": "gold chunk p0137-002 (names) and p0137-001 (twin-study framing) both in context"
+ },
+ {
+  "query_id": "t04",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "definition (similar age/status, shared interests) matches gold; citations: p0141-000 contains the definition verbatim",
+  "context_grade": 2,
+  "context_reason": "gold evidence chunk(s) in final context with page/section source; sufficient to answer"
+ },
+ {
+  "query_id": "t05",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "Ritzer 1993 + fast-food model in government/education/relationships; matches gold (answer to 'what does it refer to' complete); citations: p0174-000 states both the author/year and the definition",
+  "context_grade": 2,
+  "context_reason": "gold evidence chunk(s) in final context with page/section source; sufficient to answer"
+ },
+ {
+  "query_id": "t06",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "differential association theory + learned from close others who model deviance; matches gold; citations: p0196-001 states this",
+  "context_grade": 2,
+  "context_reason": "gold evidence chunk(s) in final context with page/section source; sufficient to answer"
+ },
+ {
+  "query_id": "t07",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "jail temporary/small/local vs prison >1 year, large, state/federal; matches gold; citations: p0203-002 states every part",
+  "context_grade": 2,
+  "context_reason": "gold evidence chunk(s) in final context with page/section source; sufficient to answer"
+ },
+ {
+  "query_id": "t08",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "note": "NCVS higher because it picks up unreported crimes; matches gold (both required chunks in context; hedge 'likely' kept as in source); citations: p0201-000 states NCVS higher and 'likely picking up ... never reported to police'; sufficient to support the claim",
+  "context_grade": 2,
+  "context_reason": "multi-hop (mode all): both p0200-001 and p0201-000 in final context; p0201-000 alone sufficient for the answer"
+ },
+ {
+  "query_id": "t09",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "citation_support": [],
+  "abstention_correct": true,
+  "note": "gold: topic absent from corpus; agent abstained ('not enough evidence'), no citations, no unsupported claim; searches: Zimbardo Stanford prison experiment participants; Zimbardo"
+ },
+ {
+  "query_id": "t10",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "citation_support": [],
+  "abstention_correct": true,
+  "note": "gold: topic absent from corpus; agent abstained ('not enough evidence'), no citations, no unsupported claim; searches: death penalty states; death penalty capital punishment"
+ },
+ {
+  "query_id": "t11",
+  "labeler": "AI-assisted (Claude); student spot-check required",
+  "citation_support": [],
+  "abstention_correct": true,
+  "note": "gold: topic absent from corpus; agent abstained ('not enough evidence'), no citations, no unsupported claim; searches: Egalia preschool Sweden children; Egalia preschool number children how many"
+ }
+]

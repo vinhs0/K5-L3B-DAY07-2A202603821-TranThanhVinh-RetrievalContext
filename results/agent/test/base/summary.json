@@ -1,0 +1,94 @@
+{
+ "config": "base",
+ "queries": 11,
+ "errors": 0,
+ "answered": 8,
+ "abstain": 3,
+ "context_evidence": {
+  "n": 8,
+  "N": 8
+ },
+ "retrieved_evidence": {
+  "n": 8,
+  "N": 8
+ },
+ "per_query": {
+  "t01": {
+   "context": true,
+   "retrieved": true
+  },
+  "t02": {
+   "context": true,
+   "retrieved": true
+  },
+  "t03": {
+   "context": true,
+   "retrieved": true
+  },
+  "t04": {
+   "context": true,
+   "retrieved": true
+  },
+  "t05": {
+   "context": true,
+   "retrieved": true
+  },
+  "t06": {
+   "context": true,
+   "retrieved": true
+  },
+  "t07": {
+   "context": true,
+   "retrieved": true
+  },
+  "t08": {
+   "context": true,
+   "retrieved": true
+  }
+ },
+ "tool_calls_mean": 1.82,
+ "tool_calls_dist": {
+  "1": 5,
+  "2": 3,
+  "3": 3
+ },
+ "llm_calls_mean": 2.91,
+ "tokens_mean": 5697,
+ "prompt_tokens_mean": 5193,
+ "active_median_s": 7.1,
+ "active_p95_s": 22.2,
+ "latency_median_s": 26.1,
+ "latency_p95_s": 101.9,
+ "context_chars_mean": 5771,
+ "agent_metrics": {
+  "cases": 11,
+  "provider_errors": 0,
+  "tool_use": {
+   "n": 11,
+   "N": 11
+  },
+  "grounded_answer": {
+   "0": 0,
+   "1": 0,
+   "2": 8,
+   "N": 8,
+   "mean": 2.0
+  },
+  "citation_validity": {
+   "n": 9,
+   "N": 9
+  },
+  "answer_citation_coverage": {
+   "n": 8,
+   "N": 8
+  },
+  "abstention": {
+   "n": 3,
+   "N": 3
+  },
+  "false_abstention": {
+   "n": 0,
+   "N": 8
+  }
+ }
+}

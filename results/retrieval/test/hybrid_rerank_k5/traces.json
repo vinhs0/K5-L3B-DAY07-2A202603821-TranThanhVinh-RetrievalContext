@@ -1,0 +1,711 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "question": "How many stages of development does Erik Erikson's theory include?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0133-004",
+    "score": 8.908042907714844,
+    "rank": 1,
+    "page": 133,
+    "section": "5.1 Theories of Self-Development"
+   },
+   {
+    "id": "B-soc3e-p0134-004",
+    "score": -4.3016204833984375,
+    "rank": 2,
+    "page": 134,
+    "section": "5.1 Theories of Self-Development"
+   },
+   {
+    "id": "B-soc3e-p0135-002",
+    "score": -4.307662487030029,
+    "rank": 3,
+    "page": 135,
+    "section": "5.1 Theories of Self-Development"
+   },
+   {
+    "id": "B-soc3e-p0135-000",
+    "score": -4.336561679840088,
+    "rank": 4,
+    "page": 135,
+    "section": "5.1 Theories of Self-Development"
+   },
+   {
+    "id": "B-soc3e-p0135-001",
+    "score": -4.836147308349609,
+    "rank": 5,
+    "page": 135,
+    "section": "5.1 Theories of Self-Development"
+   }
+  ],
+  "latency_ms": 749.8913000017637,
+  "answerable": true,
+  "type": "direct",
+  "eval": {
+   "hit_at": {
+    "1": true,
+    "3": true,
+    "5": true,
+    "10": true
+   },
+   "first_gold_rank": 1,
+   "mrr": 1.0,
+   "recall": 1.0,
+   "full_recall": true,
+   "items_found": 1,
+   "items_required": 1,
+   "gold_ids": [
+    "B-soc3e-p0133-004"
+   ]
+  }
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "question": "What did Emile Durkheim attribute differences in suicide rates to?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0134-002",
+    "score": 6.385957717895508,
+    "rank": 1,
+    "page": 134,
+    "section": "5.1 Theories of Self-Development"
+   },
+   {
+    "id": "B-soc3e-p0191-000",
+    "score": -3.009645462036133,
+    "rank": 2,
+    "page": 191,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0191-001",
+    "score": -3.125027894973755,
+    "rank": 3,
+    "page": 191,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0191-002",
+    "score": -5.935822486877441,
+    "rank": 4,
+    "page": 191,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0201-001",
+    "score": -10.652152061462402,
+    "rank": 5,
+    "page": 201,
+    "section": "7.3 Crime and the Law"
+   }
+  ],
+  "latency_ms": 764.9547000037273,
+  "answerable": true,
+  "type": "direct",
+  "eval": {
+   "hit_at": {
+    "1": true,
+    "3": true,
+    "5": true,
+    "10": true
+   },
+   "first_gold_rank": 1,
+   "mrr": 1.0,
+   "recall": 1.0,
+   "full_recall": true,
+   "items_found": 1,
+   "items_required": 1,
+   "gold_ids": [
+    "B-soc3e-p0134-002"
+   ]
+  }
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "question": "Which pair of reunited twins is described as an example for studying the impact of nature?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0137-001",
+    "score": 4.0786824226379395,
+    "rank": 1,
+    "page": 137,
+    "section": "5.2 Why Socialization Matters"
+   },
+   {
+    "id": "B-soc3e-p0153-001",
+    "score": -6.051957130432129,
+    "rank": 2,
+    "page": 153,
+    "section": "Short Answer"
+   },
+   {
+    "id": "B-soc3e-p0138-000",
+    "score": -7.0351362228393555,
+    "rank": 3,
+    "page": 138,
+    "section": "5.2 Why Socialization Matters"
+   },
+   {
+    "id": "B-soc3e-p0137-002",
+    "score": -7.971747398376465,
+    "rank": 4,
+    "page": 137,
+    "section": "5.2 Why Socialization Matters"
+   },
+   {
+    "id": "B-soc3e-p0139-000",
+    "score": -8.073627471923828,
+    "rank": 5,
+    "page": 139,
+    "section": "5.2 Why Socialization Matters"
+   }
+  ],
+  "latency_ms": 794.1413000007742,
+  "answerable": true,
+  "type": "direct",
+  "eval": {
+   "hit_at": {
+    "1": false,
+    "3": false,
+    "5": true,
+    "10": true
+   },
+   "first_gold_rank": 4,
+   "mrr": 0.25,
+   "recall": 1.0,
+   "full_recall": true,
+   "items_found": 1,
+   "items_required": 1,
+   "gold_ids": [
+    "B-soc3e-p0137-002"
+   ]
+  }
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "question": "How does the textbook define a peer group?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0141-000",
+    "score": 2.594473123550415,
+    "rank": 1,
+    "page": 141,
+    "section": "5.3 Agents of Socialization"
+   },
+   {
+    "id": "B-soc3e-p0164-000",
+    "score": -0.030521340668201447,
+    "rank": 2,
+    "page": 164,
+    "section": "6.1 Types of Groups"
+   },
+   {
+    "id": "B-soc3e-p0150-000",
+    "score": -3.9675214290618896,
+    "rank": 3,
+    "page": 150,
+    "section": "Key Terms"
+   },
+   {
+    "id": "B-soc3e-p0139-002",
+    "score": -4.730058670043945,
+    "rank": 4,
+    "page": 139,
+    "section": "5.3 Agents of Socialization"
+   },
+   {
+    "id": "B-soc3e-p0177-000",
+    "score": -4.816121578216553,
+    "rank": 5,
+    "page": 177,
+    "section": "Section Summary"
+   }
+  ],
+  "latency_ms": 805.0306000004639,
+  "answerable": true,
+  "type": "direct",
+  "eval": {
+   "hit_at": {
+    "1": true,
+    "3": true,
+    "5": true,
+    "10": true
+   },
+   "first_gold_rank": 1,
+   "mrr": 1.0,
+   "recall": 1.0,
+   "full_recall": true,
+   "items_found": 1,
+   "items_required": 1,
+   "gold_ids": [
+    "B-soc3e-p0141-000"
+   ]
+  }
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "question": "Who is associated with the term McDonaldization of society, and what does it refer to?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0174-000",
+    "score": 6.86756706237793,
+    "rank": 1,
+    "page": 174,
+    "section": "6.3 Formal Organizations"
+   },
+   {
+    "id": "B-soc3e-p0174-002",
+    "score": 1.4316651821136475,
+    "rank": 2,
+    "page": 174,
+    "section": "6.3 Formal Organizations"
+   },
+   {
+    "id": "B-soc3e-p0180-000",
+    "score": 1.1554334163665771,
+    "rank": 3,
+    "page": 180,
+    "section": "Section Quiz"
+   },
+   {
+    "id": "B-soc3e-p0173-003",
+    "score": 0.39307427406311035,
+    "rank": 4,
+    "page": 173,
+    "section": "6.3 Formal Organizations"
+   },
+   {
+    "id": "B-soc3e-p0171-002",
+    "score": -0.3204537630081177,
+    "rank": 5,
+    "page": 171,
+    "section": "6.3 Formal Organizations"
+   }
+  ],
+  "latency_ms": 724.6940000040922,
+  "answerable": true,
+  "type": "direct",
+  "eval": {
+   "hit_at": {
+    "1": true,
+    "3": true,
+    "5": true,
+    "10": true
+   },
+   "first_gold_rank": 1,
+   "mrr": 1.0,
+   "recall": 1.0,
+   "full_recall": true,
+   "items_found": 1,
+   "items_required": 1,
+   "gold_ids": [
+    "B-soc3e-p0174-000"
+   ]
+  }
+ },
+ {
+  "query_id": "t06",
+  "split": "test",
+  "question": "What theory did Edwin Sutherland establish about how deviant behavior develops?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0196-001",
+    "score": 8.926416397094727,
+    "rank": 1,
+    "page": 196,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0198-000",
+    "score": 4.999575138092041,
+    "rank": 2,
+    "page": 198,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0196-002",
+    "score": 4.990926265716553,
+    "rank": 3,
+    "page": 196,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0197-000",
+    "score": 4.084878921508789,
+    "rank": 4,
+    "page": 197,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0194-001",
+    "score": 1.6752300262451172,
+    "rank": 5,
+    "page": 194,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   }
+  ],
+  "latency_ms": 589.2650000023423,
+  "answerable": true,
+  "type": "direct",
+  "eval": {
+   "hit_at": {
+    "1": true,
+    "3": true,
+    "5": true,
+    "10": true
+   },
+   "first_gold_rank": 1,
+   "mrr": 1.0,
+   "recall": 1.0,
+   "full_recall": true,
+   "items_found": 1,
+   "items_required": 1,
+   "gold_ids": [
+    "B-soc3e-p0196-001"
+   ]
+  }
+ },
+ {
+  "query_id": "t07",
+  "split": "test",
+  "question": "What is the difference between a prison and a jail?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0203-002",
+    "score": 9.25887680053711,
+    "rank": 1,
+    "page": 203,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0203-003",
+    "score": -0.3163277506828308,
+    "rank": 2,
+    "page": 203,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0203-000",
+    "score": -5.345316410064697,
+    "rank": 3,
+    "page": 203,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0203-001",
+    "score": -7.781756401062012,
+    "rank": 4,
+    "page": 203,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0198-002",
+    "score": -8.306400299072266,
+    "rank": 5,
+    "page": 198,
+    "section": "7.3 Crime and the Law"
+   }
+  ],
+  "latency_ms": 586.5695000029518,
+  "answerable": true,
+  "type": "direct",
+  "eval": {
+   "hit_at": {
+    "1": true,
+    "3": true,
+    "5": true,
+    "10": true
+   },
+   "first_gold_rank": 1,
+   "mrr": 1.0,
+   "recall": 1.0,
+   "full_recall": true,
+   "items_found": 1,
+   "items_required": 1,
+   "gold_ids": [
+    "B-soc3e-p0203-002"
+   ]
+  }
+ },
+ {
+  "query_id": "t08",
+  "split": "test",
+  "question": "Which reports a higher crime rate, the FBI's Uniform Crime Reports or the National Crime Victimization Survey, and why?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0200-001",
+    "score": 4.774041175842285,
+    "rank": 1,
+    "page": 200,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0200-002",
+    "score": 3.4409220218658447,
+    "rank": 2,
+    "page": 200,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0199-005",
+    "score": 2.6102519035339355,
+    "rank": 3,
+    "page": 199,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0201-000",
+    "score": 2.093853235244751,
+    "rank": 4,
+    "page": 201,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0201-001",
+    "score": -0.05260434001684189,
+    "rank": 5,
+    "page": 201,
+    "section": "7.3 Crime and the Law"
+   }
+  ],
+  "latency_ms": 934.4211999996332,
+  "answerable": true,
+  "type": "multi-hop",
+  "eval": {
+   "hit_at": {
+    "1": true,
+    "3": true,
+    "5": true,
+    "10": true
+   },
+   "first_gold_rank": 1,
+   "mrr": 1.0,
+   "recall": 1.0,
+   "full_recall": true,
+   "items_found": 2,
+   "items_required": 2,
+   "gold_ids": [
+    "B-soc3e-p0200-001",
+    "B-soc3e-p0201-000"
+   ]
+  }
+ },
+ {
+  "query_id": "t09",
+  "split": "test",
+  "question": "What happened to the participants in Zimbardo's Stanford prison experiment?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0170-003",
+    "score": -7.80645227432251,
+    "rank": 1,
+    "page": 170,
+    "section": "6.2 Group Size and Structure"
+   },
+   {
+    "id": "B-soc3e-p0170-000",
+    "score": -10.920480728149414,
+    "rank": 2,
+    "page": 170,
+    "section": "6.2 Group Size and Structure"
+   },
+   {
+    "id": "B-soc3e-p0147-004",
+    "score": -10.943642616271973,
+    "rank": 3,
+    "page": 147,
+    "section": "5.4 Socialization Across the Life Course"
+   },
+   {
+    "id": "B-soc3e-p0203-003",
+    "score": -10.999200820922852,
+    "rank": 4,
+    "page": 203,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0134-003",
+    "score": -11.02393913269043,
+    "rank": 5,
+    "page": 134,
+    "section": "5.1 Theories of Self-Development"
+   }
+  ],
+  "latency_ms": 726.5860999978031,
+  "answerable": false,
+  "type": "unanswerable"
+ },
+ {
+  "query_id": "t10",
+  "split": "test",
+  "question": "How many states still use the death penalty according to the textbook?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0142-002",
+    "score": -8.11783218383789,
+    "rank": 1,
+    "page": 142,
+    "section": "5.3 Agents of Socialization"
+   },
+   {
+    "id": "B-soc3e-p0203-001",
+    "score": -8.785665512084961,
+    "rank": 2,
+    "page": 203,
+    "section": "7.3 Crime and the Law"
+   },
+   {
+    "id": "B-soc3e-p0193-003",
+    "score": -8.991562843322754,
+    "rank": 3,
+    "page": 193,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0195-002",
+    "score": -9.053592681884766,
+    "rank": 4,
+    "page": 195,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   },
+   {
+    "id": "B-soc3e-p0203-000",
+    "score": -9.84766960144043,
+    "rank": 5,
+    "page": 203,
+    "section": "7.3 Crime and the Law"
+   }
+  ],
+  "latency_ms": 697.254000006069,
+  "answerable": false,
+  "type": "unanswerable"
+ },
+ {
+  "query_id": "t11",
+  "split": "test",
+  "question": "How many children attend the Egalia preschool in Sweden?",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "params": {},
+  "collection": "soc3e_B",
+  "ok": true,
+  "error": null,
+  "inferred_chapter": null,
+  "retrieved": [
+   {
+    "id": "B-soc3e-p0136-002",
+    "score": 2.547919273376465,
+    "rank": 1,
+    "page": 136,
+    "section": "5.1 Theories of Self-Development"
+   },
+   {
+    "id": "B-soc3e-p0140-003",
+    "score": -6.1846771240234375,
+    "rank": 2,
+    "page": 140,
+    "section": "5.3 Agents of Socialization"
+   },
+   {
+    "id": "B-soc3e-p0146-002",
+    "score": -10.558995246887207,
+    "rank": 3,
+    "page": 146,
+    "section": "5.4 Socialization Across the Life Course"
+   },
+   {
+    "id": "B-soc3e-p0145-005",
+    "score": -10.95986557006836,
+    "rank": 4,
+    "page": 145,
+    "section": "5.4 Socialization Across the Life Course"
+   },
+   {
+    "id": "B-soc3e-p0192-001",
+    "score": -10.981383323669434,
+    "rank": 5,
+    "page": 192,
+    "section": "7.2 Theoretical Perspectives on Deviance and Crime"
+   }
+  ],
+  "latency_ms": 572.0093000054476,
+  "answerable": false,
+  "type": "unanswerable"
+ }
+]
